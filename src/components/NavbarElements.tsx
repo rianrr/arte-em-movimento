@@ -7,8 +7,9 @@ export const Nav = styled.nav`
 background: #6c46ce;
 height: 5em;
 display: flex;
-justify-content: center;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+justify-content: space-between;
+padding: 0.5rem calc((100vw - 1000px) / 2);
+z-index: 10;
 `;
 
 export const NavLink = styled(Link)`
@@ -19,8 +20,8 @@ text-decoration: none;
 padding: 1rem;
 height: 100%;
 cursor: pointer;
-&:active {
-	color: #7800ff;
+&.active {
+	color: #f8f8f8;
 }
 &:hover {
 	color: #ceabfc;

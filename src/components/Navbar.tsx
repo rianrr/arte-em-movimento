@@ -9,6 +9,9 @@ const Navbar = () => {
     return (
         <>
         <Nav>
+            <NavLink to="/">
+                <h1>Arte em Movimento</h1>
+            </NavLink>
             <Bars />
             <NavMenu>
                 <NavLink to='/quem-somos' >

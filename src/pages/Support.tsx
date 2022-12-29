@@ -1,3 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export function Support() {
-    return <h1>Nos apoie!</h1>
+    return (
+        <>
+            <Navbar />
+            <h1>Nos apoie!</h1>
+        </>
+    )
 }

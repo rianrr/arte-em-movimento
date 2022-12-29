@@ -1,3 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export function Contact() {
-    return <h1>Contato</h1>
+    return (
+        <>
+            <Navbar />
+            <h1>Contato</h1>
+        </>
+    )
 }
