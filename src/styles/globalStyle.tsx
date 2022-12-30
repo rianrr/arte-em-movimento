@@ -24,4 +24,8 @@ export const GlobalStyle = createGlobalStyle`
         // fonts: Poppins and Playfair Display
         font-family: 'Poppins', sans-serif;
     }
+
+    body {
+        background-color: #f8f8f8;
+    }
 `
