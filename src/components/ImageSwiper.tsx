@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
+import { Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css/bundle'
@@ -9,12 +9,11 @@ import 'swiper/css/scrollbar'
 export function ImageSwiper() {
     return (
         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Navigation]}
             spaceBetween={50}
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >

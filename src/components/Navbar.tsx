@@ -3,7 +3,7 @@ Nav,
 NavLink,
 NavMenu,
 Bars
-} from './NavbarElements';
+} from '../styles/NavbarElements';
 
 const Navbar = () => {
     return (
