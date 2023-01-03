@@ -1,5 +1,5 @@
 import { Navigation } from 'swiper'
-import { SwiperElement, SwiperSlider, Button } from '../styles/ImageSwiperStyle'
+import { SwiperElement, SwiperSlider, NavLink } from '../styles/ImageSwiperStyle'
 
 import 'swiper/css/bundle'
 
@@ -14,7 +14,7 @@ export function ImageSwiper() {
       >
         <SwiperSlider>
             <img src="/images/christmas.jpg" />
-            <Button>HELLO</Button>
+            <NavLink to="/quem-somos">QUEM SOMOS?</NavLink>
         </SwiperSlider>
         <SwiperSlider>
             <img src="/images/forest.jpg" />
