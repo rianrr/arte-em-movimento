@@ -17,7 +17,7 @@ export const NavLink = styled(Link)`
   text-align: center;
   justify-content: center;
   width: 20em;
-  top: 30%;
+  top: 40%;
   cursor: pointer;
   padding: 1em;
   border-radius: 1em;
@@ -32,6 +32,6 @@ export const NavLink = styled(Link)`
 
   &:hover {
     background-color: #6c46ce;
-    transition: all .3s ease;
+    transition: all .3s ease-out;
   }
 `
