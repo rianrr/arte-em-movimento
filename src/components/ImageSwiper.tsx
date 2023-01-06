@@ -1,5 +1,5 @@
 import { Navigation } from 'swiper'
-import { SwiperElement, SwiperSlider, NavLink } from '../styles/ImageSwiperStyle'
+import { SwiperElement, SwiperSlider, NavLink, Image } from '../styles/ImageSwiperStyle'
 
 import 'swiper/css/bundle'
 
@@ -13,17 +13,17 @@ export function ImageSwiper() {
         pagination={{ clickable: true }}
       >
         <SwiperSlider>
-            <img src="/images/christmas.jpg" />
+            <Image src="/images/2.JPG" />
             <NavLink to="/quem-somos">QUEM SOMOS?</NavLink>
         </SwiperSlider>
         <SwiperSlider>
-            <img src="/images/forest.jpg" />
+            <Image src="/images/7.JPG" />
         </SwiperSlider>
         <SwiperSlider>
-            <img src="/images/new_year.jpg" />
+            <Image src="/images/15.JPG" />
         </SwiperSlider>
         <SwiperSlider>
-            <img src="/images/town.jpg" />
+            <Image src="/images/3.JPG" />
         </SwiperSlider>
       </SwiperElement>
     )

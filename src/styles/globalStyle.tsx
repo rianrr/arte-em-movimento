@@ -18,14 +18,15 @@ White
 
 export const GlobalStyle = createGlobalStyle`
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        // fonts: Poppins and Playfair Display
-        font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      // fonts: Poppins and Playfair Display
+      font-family: 'Poppins', sans-serif;
     }
 
     body {
-        background-color: #6c46ce;
+      background-color: #6c46ce;
+      // overflow: hidden;
     }
 `

@@ -1,11 +1,24 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  background-color: #daa5ee;
-  height: 40em;
-  margin: 0 0 0 0;
+  background-color: #6c46ce;
+  height: 30em;
+  /* margin-top: 16.4em; */
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const WaveImg = styled.img`
-  margin: 0 0 0 0;
+  /* position: absolute; */
+  top: 0;
+  margin-top: 35em;
+`
+
+export const Text = styled.h1`
+  background-color: #6c46ce;
+  text-align: center;
+  padding-top: 1em;
+  color: #f8f8f8;
 `
