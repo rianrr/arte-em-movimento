@@ -12,9 +12,16 @@ return (
 	<Box>
 	<Container>
 		{/* <Row> */}
+    <Column>
+      <Heading>Endereço</Heading>
+      <FooterLink>Av. Oswaldo Cruz nº 621</FooterLink>
+      <FooterLink>Sítio Paecara (Vicente de Carvalho)</FooterLink>
+      <FooterLink>Guarujá, SP - Brasil</FooterLink>
+      <FooterLink>CEP: 11460-101</FooterLink>
+    </Column>
 		<Column>
 			<Heading>Contato</Heading>
-			<FooterLink><span>(13) 99788-3366</span></FooterLink>
+			<FooterLink><span>+55 (13) 99788-3366</span></FooterLink>
 			<FooterLink><span>anarosazz@hotmail.com</span></FooterLink>
 		</Column>
 		<Column>
