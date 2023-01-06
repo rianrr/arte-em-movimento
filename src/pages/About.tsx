@@ -9,10 +9,8 @@ export function About() {
         <SectionImage>
           <Image src="/images/11.JPG" />
 
-          <Heading>QUEM SOMOS?</Heading>
-        </SectionImage>
-
         <Section>
+          <Heading>QUEM SOMOS?</Heading>
           <Text>
             Somos uma Organização da Sociedade Civil (OSC) sem fins lucrativos fundada em novembro de 2017, é o braço social da Escola Arte em Movimento.
           </Text>
@@ -23,6 +21,8 @@ export function About() {
             Promovemos aprendizagens significativas, não apenas no âmbito intelectual, mas também físicas, emocionais, culturais e sociais Formamos uma comunidade unida pelo desafio de ampliar o acesso a educação, profissionalização através da dança e melhores oportunidades de vida, contribuindo para a formação de valores éticos, o fortalecimento da cidadania, com a valorização e respeitando a diversidade dos nossos alunos.
           </Text>
         </Section>
+
+        </SectionImage>
 
         <Footer />
       </>

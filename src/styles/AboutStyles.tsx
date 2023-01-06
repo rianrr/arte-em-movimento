@@ -1,36 +1,31 @@
 import styled from 'styled-components'
 
 export const Image = styled.img`
-  height: 47em;
-  width: 100%;
-  position: relative;
-  display: flex;
-  margin: 1em 1em 1em 1em;
-  border-radius: 5em;
+  height: 45em;
+  width: 55%;
+  border-radius: 5em 5em 5em 5em;
+  margin: 2em 2em 2em 2em;
 `
 
 export const Heading = styled.h1`
   color: #f8f8f8;
-  position: absolute;
-  left: 34%;
-  top: 83%;
-  font-size: 5em;
+  font-size: 4em;
+  margin-bottom: .3em;
 `
 
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  margin: 4em 5em 5em 5em;
+  margin: 2em 5em 5em 5em;
   align-items: center;
   justify-content: center;
   text-align: center;
 `
 
 export const SectionImage = styled.section`
-  margin: 0 1em 1em 15em;
-  width: 90em;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
 `
 
 export const Text = styled.h3`
