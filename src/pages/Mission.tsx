@@ -1,11 +1,11 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-export function Partners() {
+export function Mission() {
     return (
         <>
             <Navbar />
-            <h1>Parceiros</h1>
+            <h1>Missão</h1>
             <Footer />
         </>
     )

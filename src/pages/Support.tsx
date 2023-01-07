@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export function Support() {
@@ -5,6 +6,7 @@ export function Support() {
         <>
             <Navbar />
             <h1>Nos apoie!</h1>
+            <Footer />
         </>
     )
 }

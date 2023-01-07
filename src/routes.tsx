@@ -9,6 +9,7 @@ import { About } from "./pages/About"
 import { Partners } from "./pages/Partners"
 import { Contact } from "./pages/Contact"
 import { Support } from "./pages/Support"
+import { Mission } from "./pages/Mission"
 
 export function AppRoutes() {
     return (
@@ -19,6 +20,7 @@ export function AppRoutes() {
                 <Route path="/parceiros" element={<Partners />} />
                 <Route path="/contato" element={<Contact />} />
                 <Route path="/apoie" element={<Support />} />
+                <Route path="/missao" element={<Mission />} />
             </Routes>
         </Router>
     )

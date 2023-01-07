@@ -9,7 +9,7 @@ export const SwiperElement = styled(Swiper)`
 `
 
 export const SwiperSlider = styled(SwiperSlide)`
-  display: flex; 
+  display: flex;
   position: relative;
 `
 
@@ -21,7 +21,7 @@ export const NavLink = styled(Link)`
   top: 80%;
   cursor: pointer;
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 5em;
   border: 0;
   font-weight: 700;
   font-size: 1.3em;

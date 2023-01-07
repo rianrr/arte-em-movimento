@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavLink as Link } from 'react-router-dom'
 
 export const Image = styled.img`
   height: 45em;
@@ -32,4 +33,23 @@ export const Text = styled.h3`
   color: #f8f8f8;
   letter-spacing: 1.5px;
   margin-bottom: 1em;
+`
+
+export const NavLink = styled(Link)`
+  margin: 2em auto;
+  padding: 1em 1em 1em 1em;
+  width: 50%;
+  border-radius: 5em;
+  font-size: 1em;
+  font-weight: 700;
+  border: dashed #daa5ee;
+  cursor: pointer;
+  background-color: transparent;
+  color: #f8f8f8;
+  text-decoration: none;
+
+  &:hover {
+    border-color: #f8f8f8;
+    transition: all .3s ease-in-out;
+  }
 `
