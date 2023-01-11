@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import emailjs from '@emailjs/browser'
+import { Container, Wrapper, Form, Heading, Input, TextArea } from '../styles/ContactStyles'
 
 export function Contact() {
     const [name, setName] = useState('')
@@ -37,15 +38,19 @@ export function Contact() {
     return (
         <>
             <Navbar />
-            <h1>Contato</h1>
 
-            <form onSubmit={sendEmail}>
-              <input type="text" placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)} value={name} />
-              <input type="email" placeholder="Digite email" onChange={(e) => setEmail(e.target.value)} value={email} />
-              <textarea placeholder="Digite sua mensagem" onChange={(e) => setMessage(e.target.value)} value={message} />
+            <Container>
+              <Heading>MANDE UMA MENSAGEM!</Heading>
 
-              <input type="submit" value="Enviar" />
-            </form>
+              <Form onSubmit={sendEmail}>
+                <Input type="text" placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)} value={name} />
+                <Input type="email" placeholder="Digite seu email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                <TextArea placeholder="Digite sua mensagem" onChange={(e) => setMessage(e.target.value)} value={message} />
+
+                <Input type="submit" value="Enviar" />
+              </Form>
+            </Container>
+
             <Footer />
         </>
     )
