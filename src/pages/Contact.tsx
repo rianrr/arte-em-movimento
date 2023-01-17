@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import emailjs from '@emailjs/browser'
-import { Container, Wrapper, Form, Heading, Input, TextArea } from '../styles/ContactStyles'
+import { Container, Wrapper, Form, Heading, Input, InputButton, TextArea } from '../styles/ContactStyles'
 
 export function Contact() {
     const [name, setName] = useState('')
@@ -25,13 +25,13 @@ export function Contact() {
 
     emailjs.send('service_55ziuos', 'template_4si4p6l', templateParams, 'KdYjfBtauGev-Fwtu')
       .then((res) => {
-        console.log('email enviado', res.status, res.text)
+        alert('Obrigado pelo contato!')
 
         setName('')
         setEmail('')
         setMessage('');
       }, (err) => {
-          console.log('erro: ', err)
+          alert('Por algum motivo, não conseguimos enviar o email. Tente novamente mais tarde.') 
         })
   }
 
@@ -43,11 +43,11 @@ export function Contact() {
               <Heading>MANDE UMA MENSAGEM!</Heading>
 
               <Form onSubmit={sendEmail}>
-                <Input type="text" placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)} value={name} />
-                <Input type="email" placeholder="Digite seu email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                <Input type="text" placeholder="Meu Nome" onChange={(e) => setName(e.target.value)} value={name} />
+                <Input type="email" placeholder="exemplo@exemplo.com" onChange={(e) => setEmail(e.target.value)} value={email} />
                 <TextArea placeholder="Digite sua mensagem" onChange={(e) => setMessage(e.target.value)} value={message} />
 
-                <Input type="submit" value="Enviar" />
+                <InputButton type="submit" value="ENVIAR" />
               </Form>
             </Container>
 

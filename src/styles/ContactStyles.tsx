@@ -22,15 +22,34 @@ export const Heading = styled.h2`
 `
 
 export const Input = styled.input`
-  /* background-color: ${props => props.type == "submit" ? "red" : "blue"} */
+  border: 0;
+  margin-bottom: 2em;
+  height: 3.5em;
+  width: 42em;
+  padding: 1em 1em 1em 1em;
+  outline: none;
+  border-radius: 5em;
+`
+
+export const InputButton = styled.input`
+  color: #f8f8f8;
+  background-color: #daa5ee;
+  font-weight: bold;
+  font-size: 1em;
   border: 0;
   margin-bottom: 2em;
   height: 3.5em;
   width: 35em;
-  padding: .7em .7em .7em .7em;
+  padding: 1em 1em 1em 1em;
   outline: none;
   border-radius: 5em;
-  cursor: ${props => props.type = "submit" ? 'pointer' : 'text'}  /* arrumar isso */
+  cursor: pointer;
+  /* letter-spacing: .1em; */
+
+  &:hover {
+    transition: all .3s ease;
+    background-color: #ceabfc;
+  }
 `
 
 export const TextArea = styled.textarea`

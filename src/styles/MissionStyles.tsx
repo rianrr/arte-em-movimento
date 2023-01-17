@@ -18,7 +18,7 @@ export const TextSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-left: 10em;
+  /* margin-left: 10em; */
 `
 
 export const Image = styled.img`

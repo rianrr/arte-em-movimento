@@ -11,7 +11,7 @@ export function Mission() {
               <ImageSection>
                 <Image src="/images/12.JPG" />
 
-              <ImageNd src="/images/1.JPG" />
+                <ImageNd src="/images/1.JPG" />
               </ImageSection>
               
               <TextSection>
