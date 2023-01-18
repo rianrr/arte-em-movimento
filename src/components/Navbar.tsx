@@ -23,6 +23,9 @@ const Navbar = () => {
                 <NavLink to='/parceiros' >
                     Parceiros
                 </NavLink>
+                <NavLink to='/portal-da-transparencia'>
+                  Portal da Transparência
+                </NavLink>
                 <NavLink to="/contato">
                     Contato
                 </NavLink>

@@ -10,6 +10,7 @@ import { Partners } from "./pages/Partners"
 import { Contact } from "./pages/Contact"
 import { Support } from "./pages/Support"
 import { Mission } from "./pages/Mission"
+import { Portal } from "./pages/Portal"
 
 export function AppRoutes() {
     return (
@@ -21,6 +22,7 @@ export function AppRoutes() {
                 <Route path="/contato" element={<Contact />} />
                 <Route path="/apoie" element={<Support />} />
                 <Route path="/missao" element={<Mission />} />
+                <Route path="/portal-da-transparencia" element={<Portal />} />
             </Routes>
         </Router>
     )
