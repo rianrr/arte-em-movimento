@@ -19,16 +19,18 @@ export const Card = styled.div`
 `
 
 export const HeadingSection = styled.div`
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 1em 1em 0 2em;
-  border-right: solid 2px #000;
+  padding: 0 1em 0 2em;
+  border-right: solid 2px #6c46ce;
   height: 70%;
   width: 35%;
 `
 
 export const MessageSection = styled.div`
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
