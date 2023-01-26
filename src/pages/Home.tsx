@@ -93,6 +93,12 @@ export function Home() {
         />
       </Section>
 
+
+      <Text>Parceiros</Text>
+
+      <Section>
+      </Section>
+
       <Footer />
     </>
     )
