@@ -1,7 +1,6 @@
 import { ImageSwiper } from '../components/ImageSwiper'
 import Navbar from '../components/Navbar'
-import Wave from '/images/wave.svg'
-import { Section, WaveImg, Text } from '../styles/HomeStyle'
+import { Section, Text } from '../styles/HomeStyle'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
@@ -23,8 +22,8 @@ export function Home() {
           <Card sx={{ maxWidth: 370, borderRadius: 5, height: 400 }}>
           <CardMedia
               sx={{ height: 200 }}
-            image="/images/12.JPG"
-            title='forest'
+              image="/images/12.JPG"
+              title='forest'
           />
           <CardContent>
             <ThemeProvider theme={theme}>
@@ -41,8 +40,8 @@ export function Home() {
           <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
           <CardMedia
               sx={{ height: 200 }}
-            image="/images/16.JPG"
-            title='forest'
+              image="/images/16.JPG"
+              title='forest'
           />
           <CardContent>
             <ThemeProvider theme={theme}>
@@ -60,8 +59,8 @@ export function Home() {
           <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
           <CardMedia
               sx={{ height: 200 }}
-            image="/images/10.JPG"
-            title='forest'
+              image="/images/10.JPG"
+              title='forest'
           />
           <CardContent>
             <ThemeProvider theme={theme}>
