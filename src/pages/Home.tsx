@@ -9,6 +9,7 @@ import { ThemeProvider } from '@mui/system'
 import theme from '../styles/Theme'
 import ReactPlayer from 'react-player/youtube'
 import Footer from '../components/Footer'
+import Fade from 'react-reveal/Fade'
 
 export function Home() {
 
@@ -17,6 +18,7 @@ export function Home() {
       <Navbar />
       <ImageSwiper />
       {/* <WaveImg src={Wave} /> */}
+      <Fade left>
       <Text>Nossos Números</Text>
       <Section>
           <Card sx={{ maxWidth: 370, borderRadius: 5, height: 400 }}>
@@ -76,6 +78,7 @@ export function Home() {
         </Card>
 
       </Section>
+      </Fade>
 
       <Text>Conheça Nossa História</Text>
 
@@ -91,7 +94,6 @@ export function Home() {
           style={{ marginLeft: 40 }}
         />
       </Section>
-
 
       <Text>Parceiros</Text>
 
