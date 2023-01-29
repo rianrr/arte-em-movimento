@@ -28,16 +28,22 @@ export const Column = styled.div`
   margin-left: 60px;
 `
 
-export const FooterLink = styled.a`
-color: #f8f8f8;
-margin-bottom: .8em;
-font-size: 18px;
-text-decoration: none;
+export const Social = styled.div`
+  display: flex;
+`
 
-&:hover {
-	color: #b851de;
-	transition: 200ms ease-in;
-}
+export const FooterLink = styled.a`
+  color: #f8f8f8;
+  margin-bottom: .8em;
+  font-size: 18px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: #b851de;
+    transition: 200ms ease-in;
+  }
 `
 
 export const Heading = styled.p`
@@ -48,6 +54,7 @@ font-weight: bold;
 `
 
 export const Logo = styled.img`
+  width: 14em;
   max-width: 100%;
   max-height: 14em;
   margin-left: 10em;

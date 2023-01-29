@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Section, Image, Heading, Text, TextSection } from '../styles/MissionStyles'
+import { Section, ValuesSection, Image, Heading, Text, TextSection, GridSection, GridItem, ItemText } from '../styles/MissionStyles'
+// import icons
 
 export function Mission() {
     return (
@@ -16,9 +17,27 @@ export function Mission() {
               </TextSection>
             </Section>
 
-            <Section>
+            <ValuesSection>
               <Heading>VALORES</Heading>
-            </Section>
+
+              <GridSection>
+                <GridItem><ItemText>AMOR</ItemText></GridItem>
+                <GridItem><ItemText>DISCIPLINA</ItemText></GridItem>
+                <GridItem><ItemText>PAIXÃO</ItemText></GridItem>
+                <GridItem>COOPERAÇÃO</GridItem>
+                <GridItem>EMPATIA</GridItem>
+                <GridItem>SUPERAÇÃO</GridItem>
+                <GridItem>ÉTICA</GridItem>
+                <GridItem>TRANSPARÊNCIA</GridItem>
+                <GridItem>RESPONSABILIDADE</GridItem>
+                <GridItem>EXCELÊNCIA</GridItem>
+                <GridItem>HUMILDADE</GridItem>
+                <GridItem>COMPETÊNCIA</GridItem>
+                <GridItem>TRABALHO EM EQUIPE</GridItem>
+                <GridItem>SUSTENTABILIDADE</GridItem>
+                <GridItem>SOLIDARIEDADE</GridItem>
+              </GridSection>
+            </ValuesSection>
 
             <Footer />
         </>
