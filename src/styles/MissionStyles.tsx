@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FiHeart, FiCalendar, FiBookOpen } from "react-icons/fi";
 
 export const Section = styled.section`
   display: flex;
@@ -51,10 +52,10 @@ export const GridSection = styled.div`
 `
 
 export const GridItem = styled.div`
-  padding: 3em;
-  /* margin: 1em 1em 1em 1em; */
+  display: flex;
+  padding: 3em 0 3em 11em;
   border-radius: 5em;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   background-color: #daa5ee;
@@ -64,4 +65,22 @@ export const ItemText = styled.h3`
   font-size: 2em;
   color: #f8f8f8;
   letter-spacing: 2px;
+`
+
+export const HeartIcon = styled(FiHeart)`
+  color: #f8f8f8;
+  font-size: 2em;
+  margin-right: 1em;
+`
+
+export const CalendarIcon = styled(FiCalendar)`
+  color: #f8f8f8;
+  font-size: 2em;
+  margin-right: 1em;
+`
+
+export const BookIcon = styled(FiBookOpen)`
+  color: #f8f8f8;
+  font-size: 2em;
+  margin-right: 1em;
 `

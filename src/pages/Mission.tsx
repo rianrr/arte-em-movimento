@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Section, ValuesSection, Image, Heading, Text, TextSection, GridSection, GridItem, ItemText } from '../styles/MissionStyles'
-// import icons
+import { Section, ValuesSection, Image, Heading, Text, TextSection, GridSection, GridItem, ItemText, HeartIcon, CalendarIcon, BookIcon } from '../styles/MissionStyles'
 
 export function Mission() {
     return (
@@ -21,21 +20,20 @@ export function Mission() {
               <Heading>VALORES</Heading>
 
               <GridSection>
-                <GridItem><ItemText>AMOR</ItemText></GridItem>
-                <GridItem><ItemText>DISCIPLINA</ItemText></GridItem>
-                <GridItem><ItemText>PAIXÃO</ItemText></GridItem>
-                <GridItem>COOPERAÇÃO</GridItem>
-                <GridItem>EMPATIA</GridItem>
-                <GridItem>SUPERAÇÃO</GridItem>
-                <GridItem>ÉTICA</GridItem>
-                <GridItem>TRANSPARÊNCIA</GridItem>
-                <GridItem>RESPONSABILIDADE</GridItem>
-                <GridItem>EXCELÊNCIA</GridItem>
-                <GridItem>HUMILDADE</GridItem>
-                <GridItem>COMPETÊNCIA</GridItem>
-                <GridItem>TRABALHO EM EQUIPE</GridItem>
-                <GridItem>SUSTENTABILIDADE</GridItem>
-                <GridItem>SOLIDARIEDADE</GridItem>
+                <GridItem>
+                  <HeartIcon />
+                  <ItemText>AMOR</ItemText>
+                </GridItem>
+
+                <GridItem>
+                  <CalendarIcon />
+                  <ItemText>DISCIPLINA</ItemText>
+                </GridItem>
+
+                <GridItem>
+                  <BookIcon />
+                  <ItemText>ÉTICA</ItemText>
+                </GridItem>
               </GridSection>
             </ValuesSection>
 
