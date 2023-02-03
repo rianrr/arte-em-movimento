@@ -8,6 +8,10 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    
+  }
 `
 
 export const WaveImg = styled.img`

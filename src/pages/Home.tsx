@@ -19,65 +19,65 @@ export function Home() {
       <ImageSwiper />
       {/* <WaveImg src={Wave} /> */}
       <Fade left>
-      <Text>Nossos Números</Text>
-      <Section>
-          <Card sx={{ maxWidth: 370, borderRadius: 5, height: 400 }}>
-          <CardMedia
-              sx={{ height: 200 }}
-              image="/images/12.JPG"
-              title='forest'
-          />
-          <CardContent>
-            <ThemeProvider theme={theme}>
-            <Typography gutterBottom variant='h2'>
-                Impacto
-            </Typography>
-            <Typography >
-                O Instituo Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
-            </Typography>
-            </ThemeProvider>
-          </CardContent>
-        </Card>
+        <Text>Nossos Números</Text>
+        <Section>
+            <Card sx={{ maxWidth: 370, borderRadius: 5, height: 400 }}>
+            <CardMedia
+                sx={{ height: 200 }}
+                image="/images/12.JPG"
+                title='forest'
+            />
+            <CardContent>
+              <ThemeProvider theme={theme}>
+              <Typography gutterBottom variant='h2'>
+                  Impacto
+              </Typography>
+              <Typography >
+                  O Instituo Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
+              </Typography>
+              </ThemeProvider>
+            </CardContent>
+          </Card>
 
-          <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
-          <CardMedia
-              sx={{ height: 200 }}
-              image="/images/16.JPG"
-              title='forest'
-          />
-          <CardContent>
-            <ThemeProvider theme={theme}>
-            <Typography gutterBottom variant='h2'>
-              Formação
-            </Typography>
-            <Typography >
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-            </Typography>
-            </ThemeProvider>
-          </CardContent>
-        </Card>
+            <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
+            <CardMedia
+                sx={{ height: 200 }}
+                image="/images/16.JPG"
+                title='forest'
+            />
+            <CardContent>
+              <ThemeProvider theme={theme}>
+              <Typography gutterBottom variant='h2'>
+                Formação
+              </Typography>
+              <Typography >
+                Lizards are a widespread group of squamate reptiles, with over 6,000
+                species, ranging across all continents except Antarctica
+              </Typography>
+              </ThemeProvider>
+            </CardContent>
+          </Card>
 
-          <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
-          <CardMedia
-              sx={{ height: 200 }}
-              image="/images/10.JPG"
-              title='forest'
-          />
-          <CardContent>
-            <ThemeProvider theme={theme}>
-            <Typography gutterBottom variant='h2'>
-              Atendimentos
-            </Typography>
-            <Typography >
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-            </Typography>
-            </ThemeProvider>
-          </CardContent>
-        </Card>
+            <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
+            <CardMedia
+                sx={{ height: 200 }}
+                image="/images/10.JPG"
+                title='forest'
+            />
+            <CardContent>
+              <ThemeProvider theme={theme}>
+              <Typography gutterBottom variant='h2'>
+                Atendimentos
+              </Typography>
+              <Typography >
+                Lizards are a widespread group of squamate reptiles, with over 6,000
+                species, ranging across all continents except Antarctica
+              </Typography>
+              </ThemeProvider>
+            </CardContent>
+          </Card>
 
-      </Section>
+        </Section>
       </Fade>
 
       <Text>Conheça Nossa História</Text>

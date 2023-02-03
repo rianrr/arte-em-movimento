@@ -3,7 +3,6 @@ Nav,
 NavLink,
 NavMenu,
 Bars,
-LogoImg,
 LogoText
 } from '../styles/NavbarStyle';
 
@@ -24,7 +23,7 @@ const Navbar = () => {
                     Parceiros
                 </NavLink>
                 <NavLink to='/portal-da-transparencia'>
-                  Portal da Transparência
+                  Transparência
                 </NavLink>
                 <NavLink to="/contato">
                     Contato
