@@ -5,10 +5,14 @@ import {
   Social,
   FooterLink,
   Heading,
-  Logo
+  Logo,
+  QRCode,
+  Wrapper
 } from "../styles/FooterStyle";
 
 import { FiFacebook, FiInstagram, FiMessageCircle, FiMail }  from 'react-icons/fi'
+
+import QrCode from '/images/qrcode.png'
 
 const Footer = () => {
   return (
@@ -46,6 +50,10 @@ const Footer = () => {
           </FooterLink>
         </Social>
       </Column>
+
+      <Wrapper>
+        <QRCode src={QrCode} />
+      </Wrapper>
     </Container>
 	</Box>
 )

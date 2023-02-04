@@ -1,10 +1,6 @@
 import { ImageSwiper } from '../components/ImageSwiper'
 import Navbar from '../components/Navbar'
-import { Section, Text, Wrapper, CardC, CardCt, CardM, CardT } from '../styles/HomeStyle'
-import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import Typography from '@mui/material/Typography'
+import { Section, Text, Wrapper, CardC, CardCt, CardM, CardT, Player } from '../styles/HomeStyle'
 import { ThemeProvider } from '@mui/system'
 import theme from '../styles/Theme'
 import ReactPlayer from 'react-player/youtube'
@@ -37,7 +33,7 @@ export function Home() {
             </CardCt>
           </CardC>
 
-            <CardC sx={{ ml: 15 }}>
+            <CardC>
             <CardM
                 sx={{ height: 200 }}
                 image="/images/16.JPG"
@@ -55,7 +51,7 @@ export function Home() {
             </CardCt>
           </CardC>
 
-            <CardC sx={{ ml: 15 }}>
+            <CardC>
             <CardM
                 sx={{ height: 200 }}
                 image="/images/10.JPG"
@@ -66,12 +62,12 @@ export function Home() {
               <CardT gutterBottom variant='h2'>
                 Atendimentos
               </CardT>
-              <Typography >
+              <CardT>
                 São mais de 9 mil atendimentos por ano.
                 Dessas jovens, várias escolheram a Dança como sua profissão. Algumas delas abriram suas escolas
                 de dança na cidade: "Studio Balance" "Studio Leticia Conrado" Jessica Vieira e Leticia Vieira são
                 bailarinas do Corpo de Baile e também professoras do Instituto.
-              </Typography>
+              </CardT>
               </ThemeProvider>
             </CardCt>
           </CardC>
@@ -82,16 +78,17 @@ export function Home() {
       <Text>Conheça Nossa História</Text>
 
       <Section>
-        <ReactPlayer
-          url='https://youtu.be/TQie1RuaBE8'
-          controls={true}
-        />
+        <Wrapper>
+          <Player
+            url='https://youtu.be/TQie1RuaBE8'
+            controls={true}
+          />
 
-        <ReactPlayer
-          url='https://youtu.be/Df_jm_P1vLw'
-          controls={true}
-          style={{ marginLeft: 40 }}
-        />
+          <Player
+            url='https://youtu.be/Df_jm_P1vLw'
+            controls={true}
+          />
+        </Wrapper>
       </Section>
 
       <Text>Parceiros</Text>

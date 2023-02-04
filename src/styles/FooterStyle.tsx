@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-display: flex;
-padding: 80px 60px;
-background: #daa5ee;
-bottom: 0;
-width: 100%;
+  display: flex;
+  padding: 80px 60px;
+  background: #daa5ee;
+  bottom: 0;
+  width: 100%;
 
-@media (max-width: 1000px) {
-	padding: 70px 30px;
-}
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 70px 30px;
+  }
 `
 
 export const Container = styled.div`
@@ -19,6 +20,10 @@ export const Container = styled.div`
 	max-width: 1300px;
 	margin: 0 auto;
 	/* background: red; */
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const Column = styled.div`
@@ -26,6 +31,11 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
+
+
+  @media screen and (max-width: 768px) {
+    margin-top: 2em;
+  }
 `
 
 export const Social = styled.div`
@@ -58,4 +68,17 @@ export const Logo = styled.img`
   max-width: 100%;
   max-height: 14em;
   margin-left: 10em;
+
+  @media screen and (max-width: 768px) {
+  margin-top: 2em;
+  }
+`
+
+export const Wrapper = styled.div`
+  display: flex;
+  margin: 7em 0 0 5em;
+`
+
+export const QRCode = styled.img`
+  height: 6em;
 `
