@@ -1,13 +1,11 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { Image, Heading, Section, SectionImage, Text, NavLink } from '../styles/AboutStyles'
-import Fade from 'react-reveal/Fade'
 
 export function About() {
     return (
       <>
         <Navbar />
-        <Fade left>
         <SectionImage>
           <Image src="/images/11.JPG" />
 
@@ -24,9 +22,7 @@ export function About() {
             </Text>
           </Section>
         </SectionImage>
-        </Fade>
 
-        <Fade right>
         <SectionImage>
           <Section>
             <Heading>MISSÃO</Heading>
@@ -46,7 +42,6 @@ export function About() {
 
           <Image src="/images/9.JPG" />
         </SectionImage>
-        </Fade>
 
         <Footer />
       </>

@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 
 export const Image = styled.img`
   height: 45em;
-  width: 55%;
+  max-width: 90%;
   border-radius: 5em 5em 5em 5em;
   margin: 2em 2em 2em 2em;
 `

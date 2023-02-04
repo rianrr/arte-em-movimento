@@ -4,8 +4,17 @@ import { NavLink as Link } from 'react-router-dom'
 
 export const SwiperElement = styled(Swiper)`
   display: flex;
-  max-height: 40em;
+  height: 48em;
+  width: 75%;
   align-items: center;
+  justify-content: center;
+  border-radius: 5em;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+  }
 `
 
 export const SwiperSlider = styled(SwiperSlide)`
@@ -28,7 +37,7 @@ export const NavLink = styled(Link)`
   background-color: #7800ff;
   color: #f8f8f8;
   left: 0;
-    margin-left: 38%;
+  margin-left: 38%;
   text-decoration: none;
 
   &:hover {
@@ -40,4 +49,6 @@ export const NavLink = styled(Link)`
 export const Image = styled.img`
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: auto;
 `

@@ -1,6 +1,6 @@
 import { ImageSwiper } from '../components/ImageSwiper'
 import Navbar from '../components/Navbar'
-import { Section, Text } from '../styles/HomeStyle'
+import { Section, Text, Wrapper, CardC, CardCt, CardM, CardT } from '../styles/HomeStyle'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
@@ -9,7 +9,6 @@ import { ThemeProvider } from '@mui/system'
 import theme from '../styles/Theme'
 import ReactPlayer from 'react-player/youtube'
 import Footer from '../components/Footer'
-import Fade from 'react-reveal/Fade'
 
 export function Home() {
 
@@ -17,68 +16,68 @@ export function Home() {
     <>
       <Navbar />
       <ImageSwiper />
-      {/* <WaveImg src={Wave} /> */}
-      <Fade left>
         <Text>Nossos Números</Text>
         <Section>
-            <Card sx={{ maxWidth: 370, borderRadius: 5, height: 400 }}>
-            <CardMedia
+            <Wrapper>
+            <CardC>
+            <CardM
                 sx={{ height: 200 }}
                 image="/images/12.JPG"
                 title='forest'
             />
-            <CardContent>
+            <CardCt>
               <ThemeProvider theme={theme}>
-              <Typography gutterBottom variant='h2'>
+              <CardT gutterBottom variant='h2'>
                   Impacto
-              </Typography>
-              <Typography >
+              </CardT>
+              <CardT>
                   O Instituo Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
-              </Typography>
+              </CardT>
               </ThemeProvider>
-            </CardContent>
-          </Card>
+            </CardCt>
+          </CardC>
 
-            <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
-            <CardMedia
+            <CardC sx={{ ml: 15 }}>
+            <CardM
                 sx={{ height: 200 }}
                 image="/images/16.JPG"
                 title='forest'
             />
-            <CardContent>
+            <CardCt>
               <ThemeProvider theme={theme}>
-              <Typography gutterBottom variant='h2'>
+              <CardT gutterBottom variant='h2'>
                 Formação
-              </Typography>
-              <Typography >
-                Lizards are a widespread group of squamate reptiles, with over 6,000
-                species, ranging across all continents except Antarctica
-              </Typography>
+              </CardT>
+              <CardT>
+                Formou mais de 25 bailarinas.
+              </CardT>
               </ThemeProvider>
-            </CardContent>
-          </Card>
+            </CardCt>
+          </CardC>
 
-            <Card sx={{ maxWidth: 370, ml: 15, borderRadius: 5, height: 400 }}>
-            <CardMedia
+            <CardC sx={{ ml: 15 }}>
+            <CardM
                 sx={{ height: 200 }}
                 image="/images/10.JPG"
                 title='forest'
             />
-            <CardContent>
+            <CardCt>
               <ThemeProvider theme={theme}>
-              <Typography gutterBottom variant='h2'>
+              <CardT gutterBottom variant='h2'>
                 Atendimentos
-              </Typography>
+              </CardT>
               <Typography >
-                Lizards are a widespread group of squamate reptiles, with over 6,000
-                species, ranging across all continents except Antarctica
+                São mais de 9 mil atendimentos por ano.
+                Dessas jovens, várias escolheram a Dança como sua profissão. Algumas delas abriram suas escolas
+                de dança na cidade: "Studio Balance" "Studio Leticia Conrado" Jessica Vieira e Leticia Vieira são
+                bailarinas do Corpo de Baile e também professoras do Instituto.
               </Typography>
               </ThemeProvider>
-            </CardContent>
-          </Card>
+            </CardCt>
+          </CardC>
+          </Wrapper>
 
         </Section>
-      </Fade>
 
       <Text>Conheça Nossa História</Text>
 
