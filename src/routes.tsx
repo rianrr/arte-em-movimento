@@ -4,8 +4,8 @@ import {
     Routes
 } from "react-router-dom"
 
-import { Home } from "./pages/Home.js"
-import { About } from "./pages/About.js"
+import { Home } from "./pages/Home"
+import { About } from "./pages/About"
 import { Partners } from "./pages/Partners"
 import { Contact } from "./pages/Contact"
 import { Support } from "./pages/Support"
