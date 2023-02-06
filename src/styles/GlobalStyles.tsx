@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      // fonts: Poppins and Playfair Display
+      // fonts: Poppins
       font-family: 'Poppins', sans-serif;
     }
 
