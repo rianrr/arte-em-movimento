@@ -5,6 +5,10 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   margin: 3em 0 3em 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 3em 2em 3em 2em;
+  }
 `
 
 export const Card = styled.div`

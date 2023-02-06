@@ -6,6 +6,13 @@ export const Image = styled.img`
   max-width: 90%;
   border-radius: 5em 5em 5em 5em;
   margin: 2em 2em 2em 2em;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    height: 40em;
+    margin: 0;
+    border-radius: 0;
+  }
 `
 
 export const Heading = styled.h1`
@@ -27,6 +34,11 @@ export const SectionImage = styled.section`
   display: flex;
   align-items: space-between;
   justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Text = styled.h3`

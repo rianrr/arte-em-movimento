@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar'
 import { Section, Text, Wrapper, CardC, CardCt, CardM, CardT, Player } from '../styles/HomeStyle'
 import { ThemeProvider } from '@mui/system'
 import theme from '../styles/Theme'
-import ReactPlayer from 'react-player/youtube'
 import Footer from '../components/Footer'
 
 export function Home() {
