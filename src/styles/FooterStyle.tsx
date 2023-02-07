@@ -7,9 +7,11 @@ export const Box = styled.div`
   bottom: 0;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     flex-direction: column;
     padding: 70px 30px;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -21,7 +23,7 @@ export const Container = styled.div`
 	margin: 0 auto;
 	/* background: red; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     flex-direction: column;
   }
 `
@@ -33,7 +35,7 @@ export const Column = styled.div`
   margin-left: 60px;
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     margin-top: 2em;
   }
 `
@@ -69,8 +71,9 @@ export const Logo = styled.img`
   max-height: 14em;
   margin-left: 10em;
 
-  @media screen and (max-width: 768px) {
-  margin-top: 2em;
+  @media screen and (max-width: 500px) {
+    margin: 0 0 2em 0;
+    margin-top: 2em;
   }
 `
 

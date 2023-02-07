@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: center;
   margin: 3em 0 3em 0;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     margin: 3em 2em 3em 2em;
   }
 `

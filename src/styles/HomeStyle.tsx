@@ -15,7 +15,7 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     height: auto;
   }
 `
@@ -30,7 +30,7 @@ export const Text = styled.h1`
 export const Wrapper = styled.div`
   display: flex;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     flex-direction: column;
   }
 `
@@ -41,7 +41,7 @@ export const CardC = styled(Card)`
   height: auto;
   margin: 0 3em 0 2em;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     margin: 1em 0 1em 0;
   }
 `
@@ -53,9 +53,11 @@ export const CardM = styled(CardMedia)``
 export const CardT = styled(Typography)``
 
 export const Player = styled(ReactPlayer)`
+  width: auto;
   margin: 0 3em 0 2em;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
+    max-width: 100%;
     margin: 1em 0 1em 0;
   }
 `

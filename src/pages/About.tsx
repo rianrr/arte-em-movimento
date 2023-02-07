@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Image, Heading, Section, SectionImage, Text, NavLink } from '../styles/AboutStyles'
+import { Image, Heading, Section, SectionImage, Text, NavLink, Line } from '../styles/AboutStyles'
 
 export function About() {
     return (
@@ -22,6 +22,8 @@ export function About() {
             </Text>
           </Section>
         </SectionImage>
+
+        <Line />
 
         <SectionImage>
           <Section>
