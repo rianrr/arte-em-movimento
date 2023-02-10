@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Image, Heading, Section, SectionImage, Text, NavLink, Line } from '../styles/AboutStyles'
+import { Image, Heading, Section, SectionImage, Text, NavLink, Line, MidSection } from '../styles/AboutStyles'
 
 export function About() {
     return (
@@ -22,6 +22,33 @@ export function About() {
             </Text>
           </Section>
         </SectionImage>
+        
+        <Line />
+
+        <MidSection>
+          <Heading>MODELO DE TRANSFORMAÇÃO E FILOSOFIA</Heading>
+          <Text>
+            Nosso modelo de transformação busca a inclusão
+            social através da qualificação profissional na área da dança fomentando a formação com excelência
+            como bailarino profissional, multiplicando e compartilhando seus conhecimentos como instrutor ou
+            professor da dança, reconhecendo o potencial da área cultural com infinitas possibilidades
+            profissionalizantes desde aprender a empreender criando uma linha de artigos específicos (roupas,
+            bolsas, figurinos) até a produção e elaboração de espetáculos, com essa atuação intersetorial dos
+            três eixos de grande importância: cultural, educacional e social, desenvolvendo uma série de
+            habilidades e valores que refletem em aprendizagens significativas, não apenas no âmbito
+            intelectual, mas também físicas, emocionais e culturais, incluindo atendimento nutricional e de
+            fisioterapia.
+          </Text>
+
+          <Text>
+            Despertar nas crianças, adolescentes e seus familiares os sentimentos de pertencimento
+            e identidade, alavancando reflexões sobre o mundo e as próprias atitudes, estimulando que elas
+            olhem mais para si e transformem seu modo de viver, conduzindo a vida de uma forma em que o
+            diálogo prevaleça, que o amor transborde e inspire, que a transformação e o progresso alavanque o
+            desenvolvimento humano da nossa região, com um desenvolvimento local sustentável promovendo o
+            alçance dos ODS do Programa das Nações Unidas.
+          </Text>
+        </MidSection>
 
         <Line />
 

@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom'
 export const Image = styled.img`
   height: 45em;
   max-width: 90%;
-  border-radius: 5em 5em 5em 5em;
+  border-radius: 3em 3em 3em 3em;
   margin: 2em 2em 1em 2em;
 
   @media screen and (max-width: 500px) {
@@ -17,7 +17,7 @@ export const Image = styled.img`
 
 export const Heading = styled.h1`
   color: #f8f8f8;
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: .3em;
 `
 
@@ -43,8 +43,9 @@ export const SectionImage = styled.section`
 
 export const Text = styled.h3`
   color: #f8f8f8;
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
   margin-bottom: 1em;
+  font-weight: normal;
 `
 
 export const NavLink = styled(Link)`
@@ -84,4 +85,13 @@ export const Line = styled.div`
     margin: 0 0 0 3em;
     display: flex;
   }
+`
+
+export const MidSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 4em 2em 4em;
+  text-align: center;
 `

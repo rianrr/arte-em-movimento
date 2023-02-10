@@ -1,4 +1,4 @@
-import { Container, Card, HeadingSection, MessageSection} from '../styles/DonationCardStyles'
+import { Container, Card, HeadingSection, MessageSection, Heading, Message } from '../styles/DonationCardStyles'
 
 type CardProps = {
   heading: string
@@ -10,11 +10,11 @@ export function DonationCard(props: CardProps) {
     <Container>
       <Card>
         <HeadingSection>
-          <h1>{props.heading}</h1>
+          <Heading>{props.heading}</Heading>
         </HeadingSection>
 
         <MessageSection>
-          <p>{props.message}</p>
+          <Message>{props.message}</Message>
         </MessageSection>
       </Card>
     </Container>

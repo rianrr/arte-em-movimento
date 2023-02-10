@@ -19,7 +19,17 @@ export const Card = styled.div`
   height: 10em;
   width: 50em;
   background-color: #daa5ee;
-  border-radius: 5em;
+  border-radius: 3em;
+
+  @media screen and (max-width: 500px) {
+    width: 90vw;
+    height: 9em;
+  }
+`
+
+export const Heading = styled.h1`
+  color: #f8f8f8;
+  font-size: 1.5em;
 `
 
 export const HeadingSection = styled.div`
@@ -31,6 +41,14 @@ export const HeadingSection = styled.div`
   border-right: solid 2px #6c46ce;
   height: 70%;
   width: 35%;
+
+  @media screen and (max-width: 500px) {
+    width: 50%;
+  }
+`
+
+export const Message = styled.p`
+  color: #f8f8f8;
 `
 
 export const MessageSection = styled.div`

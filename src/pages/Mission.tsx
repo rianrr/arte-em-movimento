@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Section, ValuesSection, Image, Heading, Text, TextSection, GridSection, GridItem, ItemText, HeartIcon, CalendarIcon, BookIcon } from '../styles/MissionStyles'
+import { Section, ValuesSection, Image, Heading, Text, TextSection, GridSection, GridItem, ItemText, HeartIcon, CalendarIcon, BookIcon, Wrapper } from '../styles/MissionStyles'
 
 export function Mission() {
     return (
@@ -21,8 +21,10 @@ export function Mission() {
 
               <GridSection>
                 <GridItem>
-                  <HeartIcon />
-                  <ItemText>AMOR</ItemText>
+                  <Wrapper>
+                    <HeartIcon />
+                    <ItemText>AMOR</ItemText>
+                  </Wrapper>
                 </GridItem>
 
                 <GridItem>
