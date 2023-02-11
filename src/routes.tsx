@@ -1,7 +1,7 @@
 import {
-    BrowserRouter as Router,
-    Route,
-    Routes
+  BrowserRouter as Router,
+  Route,
+  Routes
 } from "react-router-dom"
 
 import { Home } from "./pages/Home"
@@ -13,17 +13,17 @@ import { Mission } from "./pages/Mission"
 import { Portal } from "./pages/Portal"
 
 export function AppRoutes() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/quem-somos" element={<About />} />
-                <Route path="/parceiros" element={<Partners />} />
-                <Route path="/contato" element={<Contact />} />
-                <Route path="/apoie" element={<Support />} />
-                <Route path="/missao" element={<Mission />} />
-                <Route path="/portal-da-transparencia" element={<Portal />} />
-            </Routes>
-        </Router>
-    )
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quem-somos" element={<About />} />
+        <Route path="/parceiros" element={<Partners />} />
+        <Route path="/contato" element={<Contact />} />
+        <Route path="/apoie" element={<Support />} />
+        <Route path="/missao" element={<Mission />} />
+        <Route path="/portal-da-transparencia" element={<Portal />} />
+      </Routes>
+    </Router>
+  )
 }

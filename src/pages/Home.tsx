@@ -11,68 +11,68 @@ export function Home() {
     <>
       <Navbar />
       <ImageSwiper />
-        <Text>Nossos Números</Text>
-        <Section>
-            <Wrapper>
-            <CardC>
+      <Text>Nossos Números</Text>
+      <Section>
+        <Wrapper>
+          <CardC>
             <CardM
-                sx={{ height: 200 }}
-                image="/images/12.JPG"
-                title='forest'
+              sx={{ height: 200 }}
+              image="/images/12.JPG"
+              title='forest'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
-              <CardT gutterBottom variant='h2'>
+                <CardT gutterBottom variant='h2'>
                   Impacto
-              </CardT>
-              <CardT>
+                </CardT>
+                <CardT>
                   O Instituo Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
-              </CardT>
+                </CardT>
               </ThemeProvider>
             </CardCt>
           </CardC>
 
-            <CardC>
+          <CardC>
             <CardM
-                sx={{ height: 200 }}
-                image="/images/16.JPG"
-                title='forest'
+              sx={{ height: 200 }}
+              image="/images/16.JPG"
+              title='forest'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
-              <CardT gutterBottom variant='h2'>
-                Formação
-              </CardT>
-              <CardT>
-                Formou mais de 25 bailarinas.
-              </CardT>
+                <CardT gutterBottom variant='h2'>
+                  Formação
+                </CardT>
+                <CardT>
+                  Formou mais de 25 bailarinas.
+                </CardT>
               </ThemeProvider>
             </CardCt>
           </CardC>
 
-            <CardC>
+          <CardC>
             <CardM
-                sx={{ height: 200 }}
-                image="/images/10.JPG"
-                title='forest'
+              sx={{ height: 200 }}
+              image="/images/10.JPG"
+              title='forest'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
-              <CardT gutterBottom variant='h2'>
-                Atendimentos
-              </CardT>
-              <CardT>
-                São mais de 9 mil atendimentos por ano.
-                Dessas jovens, várias escolheram a Dança como sua profissão. Algumas delas abriram suas escolas
-                de dança na cidade: "Studio Balance" "Studio Leticia Conrado" Jessica Vieira e Leticia Vieira são
-                bailarinas do Corpo de Baile e também professoras do Instituto.
-              </CardT>
+                <CardT gutterBottom variant='h2'>
+                  Atendimentos
+                </CardT>
+                <CardT>
+                  São mais de 9 mil atendimentos por ano.
+                  Dessas jovens, várias escolheram a Dança como sua profissão. Algumas delas abriram suas escolas
+                  de dança na cidade: "Studio Balance" "Studio Leticia Conrado" Jessica Vieira e Leticia Vieira são
+                  bailarinas do Corpo de Baile e também professoras do Instituto.
+                </CardT>
               </ThemeProvider>
             </CardCt>
           </CardC>
-          </Wrapper>
+        </Wrapper>
 
-        </Section>
+      </Section>
 
       <Text>Conheça Nossa História</Text>
 
@@ -97,6 +97,6 @@ export function Home() {
 
       <Footer />
     </>
-    )
+  )
 }
 
