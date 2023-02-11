@@ -1,12 +1,17 @@
+import { useState } from 'react';
 import {
   Nav,
   NavLink,
   NavMenu,
   Bars,
-  LogoText
+  LogoText,
+  ExtendendContainer,
+  ExtendedNavLink
 } from '../styles/NavbarStyle';
 
 const Navbar = () => {
+  const [extendNavbar, setExtendNavbar] = useState(false)
+
   return (
     <>
       <Nav>
@@ -14,7 +19,7 @@ const Navbar = () => {
           <LogoText>Instituto Arte em Movimento Ana Zucchi</LogoText>
         </NavLink>
 
-        <Bars />
+        <Bars onClick={() => { setExtendNavbar((curr) => !curr) }} />  {/* set the value to the opposite */}
 
         <NavMenu>
           <NavLink to='/quem-somos' >
@@ -34,6 +39,26 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
       </Nav>
+
+      {extendNavbar && (
+        <ExtendendContainer>
+          <ExtendedNavLink to='/quem-somos'>
+            Quem Somos
+          </ExtendedNavLink>
+          <ExtendedNavLink to='/parceiros' >
+            Parceiros
+          </ExtendedNavLink>
+          <ExtendedNavLink to='/portal-da-transparencia'>
+            Transparência
+          </ExtendedNavLink>
+          <ExtendedNavLink to="/contato">
+            Contato
+          </ExtendedNavLink>
+          <ExtendedNavLink to="/apoie">
+            Nos Apoie!
+          </ExtendedNavLink>
+        </ExtendendContainer>
+      )}
     </>
   );
 };

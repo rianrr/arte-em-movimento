@@ -20,13 +20,23 @@ export const NavLink = styled(Link)`
   padding: 1rem;
   height: 100%;
   cursor: pointer;
+
   &.active {
     color: #f8f8f8;
   }
+
   &:hover {
     color: #ceabfc;
     transition: all .3s ease;
   }
+`
+
+export const ExtendedNavLink = styled(Link)`
+  color: #f8f8f8;
+  text-decoration: none;
+  align-items: center;
+  padding: 5em 2em 2em 2em;
+  cursor: pointer;
 `
 
 export const Bars = styled(FaBars)`
@@ -61,4 +71,17 @@ export const LogoText = styled.h1`
 export const LogoImg = styled.img`
   width: 20em;
   height: 4em;
+`
+
+export const ExtendendContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `
