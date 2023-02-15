@@ -38,12 +38,12 @@ const Footer = () => {
           <Heading>Redes Sociais</Heading>
 
           <Social>
-            <FooterLink href="https://www.facebook.con/ArteEmMovimentoAnaZucchi">
+            <FooterLink href="https://www.facebook.com/ArteEmMovimentoAnaZucchi/">
               <span>
                 <FiFacebook />
               </span>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://www.instagram.com/arteemmovimentoanazucchi/">
               <span style={{ marginLeft: 10 }}>
                 <FiInstagram />
               </span>

@@ -90,10 +90,10 @@ export function Home() {
         </Wrapper>
       </Section>
 
-      <Text>Parceiros</Text>
+      {/* <Text>Parceiros</Text> */}
 
-      <Section>
-      </Section>
+      {/* <Section> */}
+      {/* </Section> */}
 
       <Footer />
     </>
