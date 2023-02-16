@@ -65,15 +65,12 @@ font-weight: bold;
 `
 
 export const Logo = styled.img`
-  width: auto;
-  height: auto;
-  max-width: auto;
-  max-height: 14em;
-  margin-left: 10em;
+  width: 12%;
+  margin-left: 10%;
 
   @media screen and (max-width: 500px) {
-    margin: 0 0 2em 0;
     margin: 2em 0 2em 0;
+    width: 40%;
   }
 `
 
