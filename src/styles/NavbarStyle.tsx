@@ -65,7 +65,9 @@ export const NavMenu = styled.div`
 `
 
 export const LogoText = styled.h1`
-  
+  @media screen and (max-width: 768px) {
+    font-size: 1em;
+  }
 `
 
 export const LogoImg = styled.img`

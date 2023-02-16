@@ -5,7 +5,8 @@ export const Container = styled.section`
   flex-direction: column;
   margin: 2em 2em 2em 2em;
   align-items: center;
-    justify-content: center;
+  justify-content: center;
+
 `
 
 export const Wrapper = styled.div``
@@ -19,6 +20,11 @@ export const Heading = styled.h2`
   color: #f8f8f8;
   font-size: 3em;
   margin-bottom: 1em;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.7em;
+  }
 `
 
 export const Input = styled.input`
@@ -29,6 +35,10 @@ export const Input = styled.input`
   padding: 1em 1em 1em 1em;
   outline: none;
   border-radius: 5em;
+
+  @media screen and (max-width: 768px) {
+    width: 30em;
+  }
 `
 
 export const InputButton = styled.input`
@@ -49,6 +59,10 @@ export const InputButton = styled.input`
   &:hover {
     transition: all .3s ease;
     background-color: #ceabfc;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 25em;
   }
 `
 

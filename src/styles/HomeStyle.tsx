@@ -15,8 +15,9 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     height: auto;
+    max-width: 90%;
   }
 `
 
@@ -30,8 +31,11 @@ export const Text = styled.h1`
 export const Wrapper = styled.div`
   display: flex;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -41,8 +45,9 @@ export const CardC = styled(Card)`
   height: auto;
   margin: 0 3em 0 2em;
 
-  @media screen and (max-width: 500px) {
-    margin: 1em 0 1em 0;
+  @media screen and (max-width: 768px) {
+    margin: 1em 0 1em 2.5em;
+    width: 25em;
   }
 `
 
@@ -53,11 +58,13 @@ export const CardM = styled(CardMedia)``
 export const CardT = styled(Typography)``
 
 export const Player = styled(ReactPlayer)`
+  display: flex;
   width: auto;
   margin: 0 3em 0 2em;
 
-  @media screen and (max-width: 500px) {
-    max-width: 100%;
-    margin: 1em 0 1em 0;
+  @media screen and (max-width: 768px) {
+    max-width: 70%;
+    height: 20em;
+    margin: 1em 0 1em 5em;
   }
 `

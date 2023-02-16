@@ -19,6 +19,10 @@ export const Heading = styled.h1`
   color: #f8f8f8;
   font-size: 3em;
   margin-bottom: .3em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.7em;
+  }
 `
 
 export const Section = styled.section`
@@ -35,7 +39,7 @@ export const SectionImage = styled.section`
   align-items: space-between;
   justify-content: space-between;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
   }
@@ -66,7 +70,7 @@ export const NavLink = styled(Link)`
     transition: all .3s ease-in-out;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 `
@@ -81,7 +85,7 @@ export const Line = styled.div`
   margin: 1em 0 1em 13em;
   display: none;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     margin: 0 0 0 3em;
     display: flex;
   }
