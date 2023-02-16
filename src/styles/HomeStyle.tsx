@@ -8,8 +8,6 @@ import ReactPlayer from 'react-player/youtube'
 export const Section = styled.section`
   background-color: #6c46ce;
   height: auto;
-  /* margin-top: 16.4em; */
-  /* position: relative; */
   padding: 2em 2em 2em 2em;
   display: flex;
   align-items: center;
@@ -17,7 +15,7 @@ export const Section = styled.section`
 
   @media screen and (max-width: 768px) {
     height: auto;
-    max-width: 90%;
+    max-width: 100%;
   }
 `
 
@@ -46,7 +44,7 @@ export const CardC = styled(Card)`
   margin: 0 3em 0 2em;
 
   @media screen and (max-width: 768px) {
-    margin: 1em 0 1em 2.5em;
+    margin: 1em 0 1em 0;
     width: 25em;
   }
 `
@@ -63,8 +61,8 @@ export const Player = styled(ReactPlayer)`
   margin: 0 3em 0 2em;
 
   @media screen and (max-width: 768px) {
-    max-width: 70%;
-    height: 20em;
-    margin: 1em 0 1em 5em;
+    max-width: 25em;
+    max-height: 14em;
+    margin: 1em 0 1em 0;
   }
 `

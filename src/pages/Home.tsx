@@ -64,7 +64,7 @@ export function Home() {
                 <CardT>
                   São mais de 9 mil atendimentos por ano.
                   Dessas jovens, várias escolheram a Dança como sua profissão. Algumas delas abriram suas escolas
-                  de dança na cidade: "Studio Balance" "Studio Leticia Conrado" Jessica Vieira e Leticia Vieira são
+                  de dança na cidade: "Studio Balance", "Studio Leticia Conrado". Jessica Vieira e Leticia Vieira, proprietárias das escolas, são
                   bailarinas do Corpo de Baile e também professoras do Instituto.
                 </CardT>
               </ThemeProvider>
@@ -81,11 +81,13 @@ export function Home() {
           <Player
             url='https://youtu.be/TQie1RuaBE8'
             controls={true}
+            // light
           />
 
           <Player
             url='https://youtu.be/Df_jm_P1vLw'
             controls={true}
+            // light
           />
         </Wrapper>
       </Section>

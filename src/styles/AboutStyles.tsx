@@ -7,7 +7,7 @@ export const Image = styled.img`
   border-radius: 3em 3em 3em 3em;
   margin: 2em 2em 1em 2em;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     max-width: 100%;
     height: auto;
     margin: 1em 1em 1em 1em;
@@ -32,6 +32,11 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 1em 0 2em 2.9em;
+    width: 80%;
+  }
 `
 
 export const SectionImage = styled.section`
@@ -50,6 +55,10 @@ export const Text = styled.h3`
   /* letter-spacing: 1.5px; */
   margin-bottom: 1em;
   font-weight: normal;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1em;
+  }
 `
 
 export const NavLink = styled(Link)`
@@ -98,4 +107,9 @@ export const MidSection = styled.section`
   justify-content: center;
   margin: 2em 4em 2em 4em;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 1em 0 2em 2.9em;
+    width: 80%;
+  }
 `

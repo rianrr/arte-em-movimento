@@ -6,8 +6,8 @@ export const Container = styled.section`
   justify-content: center;
   margin: 3em 0 3em 0;
 
-  @media screen and (max-width: 500px) {
-    margin: 3em 2em 3em 2em;
+  @media screen and (max-width: 768px) {
+    margin: 3em 1em 3em 1em;
   }
 `
 
@@ -19,10 +19,10 @@ export const Card = styled.div`
   height: 10em;
   width: 50em;
   background-color: #daa5ee;
-  border-radius: 3em;
+  border-radius: 1em;
 
-  @media screen and (max-width: 500px) {
-    width: 90vw;
+  @media screen and (max-width: 768px) {
+    width: 100vw;
     height: 9em;
   }
 `
@@ -30,6 +30,10 @@ export const Card = styled.div`
 export const Heading = styled.h1`
   color: #f8f8f8;
   font-size: 1.5em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.3em;
+  }
 `
 
 export const HeadingSection = styled.div`
@@ -42,7 +46,7 @@ export const HeadingSection = styled.div`
   height: 70%;
   width: 35%;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     width: 50%;
   }
 `

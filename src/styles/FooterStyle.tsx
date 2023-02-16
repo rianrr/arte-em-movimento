@@ -17,11 +17,10 @@ export const Box = styled.div`
 
 export const Container = styled.div`
 	display: flex;
-  /* flex-direction: column; */
 	justify-content: flex-end;
 	max-width: 1300px;
 	margin: 0 auto;
-	/* background: red; */
+	// background: red;
 
   @media screen and (max-width: 500px) {
     flex-direction: column;
@@ -32,7 +31,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 3em;
 
 
   @media screen and (max-width: 500px) {
@@ -47,7 +46,7 @@ export const Social = styled.div`
 export const FooterLink = styled.a`
   color: #f8f8f8;
   margin-bottom: .8em;
-  font-size: 18px;
+  font-size: 1.1em;
   text-decoration: none;
   align-items: center;
   justify-content: center;
@@ -59,29 +58,39 @@ export const FooterLink = styled.a`
 `
 
 export const Heading = styled.p`
-font-size: 24px;
+font-size: 1.5em;
 color: #f8f8f8;
 margin-bottom: 1em;
 font-weight: bold;
 `
 
 export const Logo = styled.img`
-  width: 14em;
-  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-width: auto;
   max-height: 14em;
   margin-left: 10em;
 
   @media screen and (max-width: 500px) {
     margin: 0 0 2em 0;
-    margin-top: 2em;
+    margin: 2em 0 2em 0;
   }
 `
 
 export const Wrapper = styled.div`
   display: flex;
   margin: 7em 0 0 5em;
+
+  @media screen and (max-width: 768px) {
+    margin: 3em 0 0 3em;
+  }
 `
 
 export const QRCode = styled.img`
   height: 6em;
+  margin-left: 5em;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 `

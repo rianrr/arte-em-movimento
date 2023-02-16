@@ -10,11 +10,6 @@ export function Support() {
       <Heading>Apoie o Instituto!</Heading>
 
       <DonationCard
-        heading="Nos apoie aqui"
-        message="blablablabla"
-      />
-
-      <DonationCard
         heading="PayPal"
         message="blablablabla"
       />

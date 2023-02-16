@@ -30,11 +30,11 @@ export const Heading = styled.h2`
 export const Input = styled.input`
   border: 0;
   margin-bottom: 2em;
-  height: 3.5em;
+  height: auto;
   width: 42em;
   padding: 1em 1em 1em 1em;
   outline: none;
-  border-radius: 5em;
+  border-radius: 1em;
 
   @media screen and (max-width: 768px) {
     width: 30em;
@@ -52,7 +52,7 @@ export const InputButton = styled.input`
   width: 35em;
   padding: 1em 1em 1em 1em;
   outline: none;
-  border-radius: 5em;
+  border-radius: 1em;
   cursor: pointer;
   /* letter-spacing: .1em; */
 
@@ -71,7 +71,8 @@ export const TextArea = styled.textarea`
   outline: none;
   border: 0;
   padding: 1em 1em 1em 1em;
-  border-radius: 2.5em;
+  border-radius: 1em;
   margin-bottom: 2.5em;
   height: 20em;
+  font-size: .9em;
 `

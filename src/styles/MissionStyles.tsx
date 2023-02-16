@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { FiHeart, FiCalendar, FiBookOpen } from "react-icons/fi";
+import { FiHeart, FiThumbsUp, FiBookOpen } from "react-icons/fi";
 
 export const Section = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 100vw;
+  max-width: 100%;
   margin: 2em 2em 2em 2em;
 
   @media screen and (max-width: 500px) {
@@ -30,7 +30,7 @@ export const TextSection = styled.div`
 
   @media screen and (max-width: 500px) {
     margin-top: 2em;
-    width: 80%;
+    width: 90%;
   }
 `
 
@@ -78,7 +78,7 @@ export const GridSection = styled.div`
 
 export const GridItem = styled.div`
   display: flex;
-  padding: 2em 2em 2em 6em;
+  padding: 2em 2em 2em 10em;
   border-radius: 3em;
   justify-content: flex-start;
   align-items: center;
@@ -86,8 +86,7 @@ export const GridItem = styled.div`
   background-color: #daa5ee;
 
   @media screen and (max-width: 500px) {
-    padding: 2em 2em 2em 7em;
-
+    padding: 2em 2em 2em 5em;
     width: 90vw;
   }
 `
@@ -111,7 +110,7 @@ export const HeartIcon = styled(FiHeart)`
   margin-right: 1em;
 `
 
-export const CalendarIcon = styled(FiCalendar)`
+export const CalendarIcon = styled(FiThumbsUp)`
   color: #f8f8f8;
   font-size: 2em;
   margin-right: 1em;
