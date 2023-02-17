@@ -19,11 +19,14 @@ const Navbar = () => {
           <LogoText>Instituto Arte em Movimento Ana Zucchi</LogoText>
         </NavLink>
 
-        <Bars onClick={() => { setExtendNavbar((curr) => !curr) }} />  {/* set the value to the opposite */}
+        <Bars onClick={() => { setExtendNavbar((curr) => !curr) }} /> {/* todo: close icon */}
 
         <NavMenu>
           <NavLink to='/quem-somos' >
             Quem Somos
+          </NavLink>
+          <NavLink to='/projetos'>
+            Projetos
           </NavLink>
           <NavLink to='/parceiros' >
             Parceiros
@@ -44,6 +47,9 @@ const Navbar = () => {
         <ExtendendContainer>
           <ExtendedNavLink to='/quem-somos'>
             Quem Somos
+          </ExtendedNavLink>
+          <ExtendedNavLink to='/projetos'>
+            Porjetos
           </ExtendedNavLink>
           <ExtendedNavLink to='/parceiros' >
             Parceiros

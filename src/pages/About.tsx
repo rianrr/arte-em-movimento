@@ -7,10 +7,10 @@ export function About() {
     <>
       <Navbar />
       <SectionImage>
-        <Image src="/images/11.JPG" />
+        <Image src="/images/11.jpg" />
 
         <Section>
-          <Heading>QUEM SOMOS?</Heading>
+          <Heading>Quem Somos?</Heading>
           <Text>
             Somos uma Organização da Sociedade Civil (OSC) sem fins lucrativos fundada em novembro de 2017, é o braço social da Escola Arte em Movimento.
           </Text>
@@ -26,7 +26,7 @@ export function About() {
       <Line />
 
       <MidSection>
-        <Heading>MODELO DE TRANSFORMAÇÃO E FILOSOFIA</Heading>
+        <Heading>Modelo de Transformação e Filosofia</Heading>
         <Text>
           Nosso modelo de transformação busca a inclusão
           social através da qualificação profissional na área da dança fomentando a formação com excelência
@@ -54,7 +54,7 @@ export function About() {
 
       <SectionImage>
         <Section>
-          <Heading>MISSÃO</Heading>
+          <Heading>Missão</Heading>
 
           <Text>
             Contribuir com a democratização cultural e artística.
@@ -69,7 +69,7 @@ export function About() {
           <NavLink to="/missao">SAIBA MAIS</NavLink> {/* Make it a Link to other page */}
         </Section>
 
-        <Image src="/images/9.JPG" />
+        <Image src="/images/9.jpg" />
       </SectionImage>
 
       <Footer />

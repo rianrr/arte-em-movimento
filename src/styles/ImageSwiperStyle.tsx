@@ -8,7 +8,7 @@ export const SwiperElement = styled(Swiper)`
   width: 75%;
   align-items: center;
   justify-content: center;
-  border-radius: 3em;
+  border-radius: 1em;
 
   @media screen and (max-width: 500px) {
     width: 100%;

@@ -11,6 +11,7 @@ import { Contact } from "./pages/Contact"
 import { Support } from "./pages/Support"
 import { Mission } from "./pages/Mission"
 import { Portal } from "./pages/Portal"
+import { Projects } from "./pages/Projects"
 
 export function AppRoutes() {
   return (
@@ -23,6 +24,7 @@ export function AppRoutes() {
         <Route path="/apoie" element={<Support />} />
         <Route path="/missao" element={<Mission />} />
         <Route path="/portal-da-transparencia" element={<Portal />} />
+        <Route path="/projetos" element={<Projects />} />
       </Routes>
     </Router>
   )

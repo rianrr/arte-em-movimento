@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom'
 export const Image = styled.img`
   height: 45em;
   max-width: 90%;
-  border-radius: 3em 3em 3em 3em;
+  border-radius: 1em;
   margin: 2em 2em 1em 2em;
 
   @media screen and (max-width: 768px) {
@@ -19,6 +19,7 @@ export const Heading = styled.h1`
   color: #f8f8f8;
   font-size: 3em;
   margin-bottom: .3em;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 2.7em;

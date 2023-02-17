@@ -6,7 +6,6 @@ import theme from '../styles/Theme'
 import Footer from '../components/Footer'
 
 export function Home() {
-
   return (
     <>
       <Navbar />
@@ -17,7 +16,7 @@ export function Home() {
           <CardC>
             <CardM
               sx={{ height: 200 }}
-              image="/images/12.JPG"
+              image="/images/12.jpg"
               title='forest'
             />
             <CardCt>
@@ -35,7 +34,7 @@ export function Home() {
           <CardC>
             <CardM
               sx={{ height: 200 }}
-              image="/images/16.JPG"
+              image="/images/16.jpg"
               title='forest'
             />
             <CardCt>
@@ -53,7 +52,7 @@ export function Home() {
           <CardC>
             <CardM
               sx={{ height: 200 }}
-              image="/images/10.JPG"
+              image="/images/10.jpg"
               title='forest'
             />
             <CardCt>
@@ -81,13 +80,13 @@ export function Home() {
           <Player
             url='https://youtu.be/TQie1RuaBE8'
             controls={true}
-            // light
+            light
           />
 
           <Player
             url='https://youtu.be/Df_jm_P1vLw'
             controls={true}
-            // light
+            light
           />
         </Wrapper>
       </Section>

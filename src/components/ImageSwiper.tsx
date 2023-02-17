@@ -15,17 +15,17 @@ export function ImageSwiper() {
       autoplay={{ delay: 1 }}
     >
       <SwiperSlider>
-        <Image src="/images/2.JPG" />
+        <Image src="/images/2.jpg" />
         <NavLink to="/quem-somos">QUEM SOMOS?</NavLink>
       </SwiperSlider>
       <SwiperSlider>
-        <Image src="/images/7.JPG" />
+        <Image src="/images/7.jpg" />
       </SwiperSlider>
       <SwiperSlider>
-        <Image src="/images/15.JPG" />
+        <Image src="/images/15.jpg" />
       </SwiperSlider>
       <SwiperSlider>
-        <Image src="/images/3.JPG" />
+        <Image src="/images/3.jpg" />
       </SwiperSlider>
     </SwiperElement>
   )

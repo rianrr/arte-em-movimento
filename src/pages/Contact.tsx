@@ -40,7 +40,7 @@ export function Contact() {
       <Navbar />
 
       <Container>
-        <Heading>MANDE UMA MENSAGEM!</Heading>
+        <Heading>Mande uma Mensagem!</Heading>
 
         <Form onSubmit={sendEmail}>
           <Input type="text" placeholder="Meu Nome" onChange={(e) => setName(e.target.value)} value={name} />

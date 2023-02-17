@@ -38,7 +38,7 @@ export const Wrapper = styled.div`
 `
 
 export const CardC = styled(Card)`
-  border-radius: 2em;
+  border-radius: 1em;
   width: 27em;
   height: auto;
   margin: 0 3em 0 2em;

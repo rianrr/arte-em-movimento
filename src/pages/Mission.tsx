@@ -8,7 +8,7 @@ export function Mission() {
       <Navbar />
 
       <Section>
-        <Image src="/images/12.JPG" />
+        <Image src="/images/12.jpg" />
 
         <TextSection>
           <Heading>VISÃO</Heading>
