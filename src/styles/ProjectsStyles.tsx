@@ -14,22 +14,35 @@ export const Heading = styled.h1`
 export const Section = styled.section`
     display: flex;
     margin: 0 2em 3em 2em;
-    /* justify-content: center; */
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const Image = styled.img`
     width: 25%;
     border-radius: 1em;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
 `
 
 export const BigCard = styled.div`
     display: flex;
     flex-direction: column;
-    /* background-color: rgba(218, 165, 238, .5); */
     background-image: linear-gradient(70deg, rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
     width: 98%;
     border-radius: 1em;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        background-image: linear-gradient(rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
+        padding: 2em;
+        width: 100%;
+    }
 `
 
 export const BigCardWrapper = styled.div`
@@ -50,4 +63,8 @@ export const ContentText = styled.p`
     text-align: center;
     font-size: 1.3em;
     margin: 0 2em 0 2em;
+
+    @media screen and (max-width: 768px) {
+        margin: 0;
+    }
 `

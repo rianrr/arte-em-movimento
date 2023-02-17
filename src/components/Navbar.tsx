@@ -49,7 +49,7 @@ const Navbar = () => {
             Quem Somos
           </ExtendedNavLink>
           <ExtendedNavLink to='/projetos'>
-            Porjetos
+            Projetos
           </ExtendedNavLink>
           <ExtendedNavLink to='/parceiros' >
             Parceiros

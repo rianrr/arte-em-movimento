@@ -11,7 +11,7 @@ export function Projects() {
             <Heading>Nossos Projetos</Heading>
 
             <Section>
-                <Image src="/images/14.jpg" />
+                <Image src="/images/9.jpg" />
 
                 <BigCardWrapper>
                     <BigCard>
@@ -29,7 +29,7 @@ export function Projects() {
             </Section>
 
             <Section>
-                <Image src="/images/8.jpg" />
+                <Image src="/images/14.jpg" />
 
                 <BigCardWrapper>
                     <BigCard>
@@ -45,6 +45,79 @@ export function Projects() {
                     </BigCard>
                 </BigCardWrapper>
             </Section>
+
+            <Section>
+                <Image src="/images/12.jpg" />
+
+                <BigCardWrapper>
+                    <BigCard>
+                        <ContentHeading>Curso Técnicio em Dança Reconhecido pelo MEC (Parceria com NAE)</ContentHeading>
+
+                        <ContentText>
+                            Alunos Formandos no curso
+                            profissionalizante de Ballet Clássico tem Bolsa de Estudos de 50% para a Formação Técnica pelo
+                            NÚCLEO ARTE EDUCAÇÃO, com certificado reconhecido pelo MEC o aluno sai preparado para o
+                            Mercado de trabalho, o Instituto oferece a estrutura física, grade de estágios presenciais e
+                            profissionais habilitados para acompanhamento dos alunos durante o curso.
+                        </ContentText>
+                    </BigCard>
+                </BigCardWrapper>
+            </Section>
+
+            <Section>
+                <Image src="/images/8.jpg" />
+
+                <BigCardWrapper>
+                    <BigCard>
+                        <ContentHeading>Porjeto Fábrica de Sonhos - 2019/2020/2021/2022 (em execução)</ContentHeading>
+
+                        <ContentText>
+                            Em
+                            parceria com a Prefeitura Municipal de Guarujá através da secretaria Municipal de Cultura atende
+                            cerca de quase 200 crianças e adolescentes de 7 a 17 anos, matriculados na rede pública de Ensino,
+                            Programa de Formação em dança oferece aulas de Ballet Clássico, Jazz e dança contemporânea em
+                            horário de contraturno escolar.
+                        </ContentText>
+                    </BigCard>
+                </BigCardWrapper>
+            </Section>
+
+            <Section>
+                <Image src="/images/13.jpg" />
+
+                <BigCardWrapper>
+                    <BigCard>
+                        <ContentHeading>Projeto Fábrica de Sonhos - Oficinas Complementares - 2020/2021</ContentHeading>
+
+                        <ContentText>
+                            Em parceria com a Prefeitura Municipal de Guarujá através da
+                            secretaria Municipal de Cultura ofereceu Cursos de Aerial Dance, Oficina de Flamenco, Oficina de
+                            Sapateado, Oficina de Variação de Repertório, Oficina de Composição Coreográfica e
+                            complementação de modalidades para o curso de Formação em Dança e profissionalização do
+                            Corpo de Baile Arte em Movimento.
+                        </ContentText>
+                    </BigCard>
+                </BigCardWrapper>
+            </Section>
+
+            <Section>
+                <Image src="/images/7.jpg" />
+
+                <BigCardWrapper>
+                    <BigCard>
+                        <ContentHeading>Projeto Movimentar - 2021/2022</ContentHeading>
+
+                        <ContentText>
+                            Em parceria com o
+                            Conselho Municipal de Direito da criança e do adolescente atendeu em 2021/2022, atendeu 60
+                            crianças e adolescentes de 7 a 17 anos, matriculados na rede pública de Ensino, aulas de incentivo a
+                            leitura e escrita, língua inglesa e atendimentos de Arteterapia visando minimizar alguns transtornos
+                            resultantes da pandemia de COVID 19.
+                        </ContentText>
+                    </BigCard>
+                </BigCardWrapper>
+            </Section>
+
 
             <Footer />
         </>
