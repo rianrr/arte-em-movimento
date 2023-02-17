@@ -83,7 +83,8 @@ export const GridItem = styled.div`
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  background-color: #daa5ee;
+  /* background-color: #daa5ee; */
+  background-image: linear-gradient(70deg, rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
 
   @media screen and (max-width: 500px) {
     padding: 2em 2em 2em 5em;
