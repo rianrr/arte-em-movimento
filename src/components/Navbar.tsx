@@ -37,9 +37,9 @@ const Navbar = () => {
           <NavLink to="/contato">
             Contato
           </NavLink>
-          <NavLink to="/apoie">
+          {/* <NavLink to="/apoie">
             Nos Apoie!
-          </NavLink>
+          </NavLink> */}
         </NavMenu>
       </Nav>
 
@@ -60,9 +60,9 @@ const Navbar = () => {
           <ExtendedNavLink to="/contato">
             Contato
           </ExtendedNavLink>
-          <ExtendedNavLink to="/apoie">
+          {/* <ExtendedNavLink to="/apoie">
             Nos Apoie!
-          </ExtendedNavLink>
+          </ExtendedNavLink> */}
         </ExtendendContainer>
       )}
     </>

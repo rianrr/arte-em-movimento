@@ -51,7 +51,7 @@ export function Projects() {
 
                 <BigCardWrapper>
                     <BigCard>
-                        <ContentHeading>Curso Técnicio em Dança Reconhecido pelo MEC (Parceria com NAE)</ContentHeading>
+                        <ContentHeading>Curso Técnico em Dança Reconhecido pelo MEC (Parceria com NAE)</ContentHeading>
 
                         <ContentText>
                             Alunos Formandos no curso
@@ -69,7 +69,7 @@ export function Projects() {
 
                 <BigCardWrapper>
                     <BigCard>
-                        <ContentHeading>Porjeto Fábrica de Sonhos - 2019/2020/2021/2022 (em execução)</ContentHeading>
+                        <ContentHeading>Projeto Fábrica de Sonhos - 2019/2020/2021/2022 (em execução)</ContentHeading>
 
                         <ContentText>
                             Em
