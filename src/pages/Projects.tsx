@@ -69,7 +69,7 @@ export function Projects() {
 
                 <BigCardWrapper>
                     <BigCard>
-                        <ContentHeading>Projeto Fábrica de Sonhos - 2019/2020/2021/2022 (em execução)</ContentHeading>
+                        <ContentHeading>Projeto Fábrica de Sonhos - 2019/2020/2021/2022/2023 (em execução)</ContentHeading>
 
                         <ContentText>
                             Em

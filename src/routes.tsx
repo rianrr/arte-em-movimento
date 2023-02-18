@@ -12,6 +12,8 @@ import { Support } from "./pages/Support"
 import { Mission } from "./pages/Mission"
 import { Portal } from "./pages/Portal"
 import { Projects } from "./pages/Projects"
+import { International } from "./pages/International"
+import { Awards } from "./pages/Awards"
 
 export function AppRoutes() {
   return (
@@ -25,6 +27,8 @@ export function AppRoutes() {
         <Route path="/missao" element={<Mission />} />
         <Route path="/portal-da-transparencia" element={<Portal />} />
         <Route path="/projetos" element={<Projects />} />
+        <Route path="/internacionalmente" element={<International />} />
+        <Route path="/premiacoes" element={<Awards />} />
       </Routes>
     </Router>
   )

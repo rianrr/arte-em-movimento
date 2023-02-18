@@ -22,10 +22,11 @@ export const Section = styled.section`
 `
 
 export const File = styled.a`
-  color: #f8f8f8;
+  color: rgba(248, 248, 248, 0.8);
   font-size: 1.5em;
   margin: 1em 0 1em 0;
   text-align: center;
+  text-decoration: none;
 
   &:hover {
     color: rgba(248, 248, 248, 0.5);

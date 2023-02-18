@@ -1,9 +1,21 @@
 import { ImageSwiper } from '../components/ImageSwiper'
-import Navbar from '../components/Navbar'
-import { Section, Text, Wrapper, CardC, CardCt, CardM, CardT, Player } from '../styles/HomeStyle'
 import { ThemeProvider } from '@mui/system'
+
+import Navbar from '../components/Navbar'
 import theme from '../styles/Theme'
 import Footer from '../components/Footer'
+
+import {
+  Section,
+  Text,
+  Wrapper,
+  CardC,
+  CardCt,
+  CardM,
+  CardT,
+  PlayerSection,
+  Player
+} from '../styles/HomeStyles'
 
 export function Home() {
   return (
@@ -43,7 +55,7 @@ export function Home() {
                   Formação
                 </CardT>
                 <CardT>
-                  Formou mais de 25 bailarinas.
+                  Formou mais de 35 bailarinas.
                 </CardT>
               </ThemeProvider>
             </CardCt>
@@ -75,7 +87,7 @@ export function Home() {
 
       <Text>Conheça Nossa História</Text>
 
-      <Section>
+      <PlayerSection>
         <Wrapper>
           <Player
             url='https://youtu.be/TQie1RuaBE8'
@@ -88,8 +100,20 @@ export function Home() {
             controls={true}
             light
           />
+
+          <Player 
+            url='https://youtu.be/U7W2FkO2VuE'
+            controls={true}
+            light
+          />
+
+          <Player 
+            url='https://youtu.be/RnoTSU6lrm0'
+            controls={true}
+            light
+          />
         </Wrapper>
-      </Section>
+      </PlayerSection>
 
       {/* <Text>Parceiros</Text> */}
 

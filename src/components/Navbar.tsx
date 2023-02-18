@@ -7,7 +7,7 @@ import {
   LogoText,
   ExtendendContainer,
   ExtendedNavLink
-} from '../styles/NavbarStyle';
+} from '../styles/NavbarStyles';
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false)
@@ -27,6 +27,12 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/projetos'>
             Projetos
+          </NavLink>
+          <NavLink to='/premiacoes'>
+            Premiações
+          </NavLink>
+          <NavLink to='/internacionalmente'>
+            Internacionalmente
           </NavLink>
           <NavLink to='/parceiros' >
             Parceiros
@@ -50,6 +56,12 @@ const Navbar = () => {
           </ExtendedNavLink>
           <ExtendedNavLink to='/projetos'>
             Projetos
+          </ExtendedNavLink>
+          <ExtendedNavLink to='/premiacoes'>
+            Premiações
+          </ExtendedNavLink>
+          <ExtendedNavLink to='/internacionalmente'>
+            Internacionalmente
           </ExtendedNavLink>
           <ExtendedNavLink to='/parceiros' >
             Parceiros

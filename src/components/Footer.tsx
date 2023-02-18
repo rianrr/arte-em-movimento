@@ -8,7 +8,7 @@ import {
   Logo,
   QRCode,
   Wrapper
-} from "../styles/FooterStyle";
+} from "../styles/FooterStyles";
 
 import { FiFacebook, FiInstagram, FiMessageCircle, FiMail } from 'react-icons/fi'
 
