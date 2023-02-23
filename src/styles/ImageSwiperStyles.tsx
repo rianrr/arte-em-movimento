@@ -10,6 +10,11 @@ export const SwiperElement = styled(Swiper)`
   justify-content: center;
   border-radius: 1em;
 
+ @media screen and (max-width: 1600px) {
+    width: 100%;
+    border-radius: 0;
+  }
+
   @media screen and (max-width: 500px) {
     width: 100%;
     height: auto;

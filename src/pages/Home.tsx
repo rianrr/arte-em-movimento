@@ -29,7 +29,7 @@ export function Home() {
             <CardM
               sx={{ height: 200 }}
               image="/images/12.jpg"
-              title='forest'
+              title='Impacto'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
@@ -37,7 +37,7 @@ export function Home() {
                   Impacto
                 </CardT>
                 <CardT>
-                  O Instituo Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
+                  O Instituto Arte em Movimento já impactou indiretamente mais de 1000 pessoas.
                 </CardT>
               </ThemeProvider>
             </CardCt>
@@ -47,7 +47,7 @@ export function Home() {
             <CardM
               sx={{ height: 200 }}
               image="/images/16.jpg"
-              title='forest'
+              title='Formação'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
@@ -65,7 +65,7 @@ export function Home() {
             <CardM
               sx={{ height: 200 }}
               image="/images/10.jpg"
-              title='forest'
+              title='Atendimentos'
             />
             <CardCt>
               <ThemeProvider theme={theme}>
@@ -101,13 +101,13 @@ export function Home() {
             light
           />
 
-          <Player 
+          <Player
             url='https://youtu.be/U7W2FkO2VuE'
             controls={true}
             light
           />
 
-          <Player 
+          <Player
             url='https://youtu.be/RnoTSU6lrm0'
             controls={true}
             light

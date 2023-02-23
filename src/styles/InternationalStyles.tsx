@@ -93,6 +93,10 @@ export const MidBox = styled(Box)`
     height: 40%;
     width: 100%;
     margin: 0 2em 2em 0;
+
+  @media screen and (max-width: 768px) {
+      width: 100%;
+    }
 `
 
 export const Observation = styled.span`

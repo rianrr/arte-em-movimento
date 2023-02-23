@@ -37,6 +37,11 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media screnn and (max-width: 1600px) {
+    display: flex;
+    flex-direction: row;
+  }
 `
 
 export const CardC = styled(Card)`
@@ -44,6 +49,12 @@ export const CardC = styled(Card)`
   width: 27em;
   height: auto;
   margin: 0 3em 0 2em;
+  background-color: #f8f8f8;
+
+  @media screen and (max-width: 1600px) {
+    /* background-color: red; */
+    margin: 0 1em 0 1em;
+  }
 
   @media screen and (max-width: 768px) {
     margin: 1em 0 1em 0;
@@ -66,6 +77,10 @@ export const Player = styled(ReactPlayer)`
   display: flex;
   width: auto;
   margin: 0 3em 2em 2em;
+
+  @media screen and (max-width: 1600px) {
+    margin: 1em 1em 1em 1em;
+  }
 
   @media screen and (max-width: 768px) {
     max-width: 25em;

@@ -22,7 +22,7 @@ export const Container = styled.div`
 	margin: 0 auto;
 	// background: red;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 `
@@ -34,7 +34,7 @@ export const Column = styled.div`
   margin-left: 3em;
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     margin-top: 2em;
   }
 `
@@ -68,7 +68,9 @@ export const Logo = styled.img`
   width: 12%;
   margin-left: 10%;
 
-  @media screen and (max-width: 500px) {
+  
+
+  @media screen and (max-width: 768px) {
     margin: 2em 0 2em 0;
     width: 40%;
   }
