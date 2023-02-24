@@ -59,7 +59,9 @@ export const Image = styled.img`
   margin: 2em 0 1em 0;
 
   @media screen and (max-width: 1600px) {
-    width: 100%;
+    width: 50%;
+    height: 20%;
+    margin: 0;
   }
 
   @media screen and (max-width: 768px) {

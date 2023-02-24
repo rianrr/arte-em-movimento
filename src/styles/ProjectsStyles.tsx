@@ -14,6 +14,7 @@ export const Heading = styled.h1`
 export const Section = styled.section`
   display: flex;
   margin: 0 2em 3em 2em;
+  justify-content: center;
 
   @media screen and (max-width: 768px) {
       flex-direction: column;
@@ -26,7 +27,7 @@ export const Image = styled.img`
   margin: 0 2em 0 2em;
 
   @media screen and (max-width: 1600px) {
-    width: 100%;
+    width: 40%;
   }
 
   @media screen and (max-width: 768px) {
