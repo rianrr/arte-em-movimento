@@ -25,6 +25,10 @@ export const Image = styled.img`
   border-radius: 1em;
   margin: 0 2em 0 2em;
 
+  @media screen and (max-width: 1600px) {
+    width: 100%;
+  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 1em 0 1em 0;

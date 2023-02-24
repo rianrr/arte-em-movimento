@@ -68,7 +68,7 @@ export const LogoText = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 1600px) {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   @media screen and (max-width: 768px) {

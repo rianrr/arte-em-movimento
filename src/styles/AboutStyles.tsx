@@ -7,6 +7,12 @@ export const Image = styled.img`
   border-radius: 1em;
   margin: 2em 2em 1em 2em;
 
+  @media screen and (max-width: 1600px) {
+    width: 95%;
+    height: 50em;
+    max-width: 100%;
+  }
+
   @media screen and (max-width: 768px) {
     max-width: 100%;
     height: auto;
@@ -44,6 +50,11 @@ export const SectionImage = styled.section`
   display: flex;
   align-items: space-between;
   justify-content: space-between;
+
+  @media screen and (max-width: 1600px) {
+    display: flex;
+    flex-direction: column;
+  }
 
   @media screen and (max-width: 768px) {
     display: flex;

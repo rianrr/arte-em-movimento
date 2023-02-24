@@ -54,6 +54,7 @@ export const CardC = styled(Card)`
   @media screen and (max-width: 1600px) {
     /* background-color: red; */
     margin: 0 1em 0 1em;
+    width: 24em;
   }
 
   @media screen and (max-width: 768px) {
@@ -79,7 +80,10 @@ export const Player = styled(ReactPlayer)`
   margin: 0 3em 2em 2em;
 
   @media screen and (max-width: 1600px) {
+    display: flex;
+    flex-wrap: wrap;
     margin: 1em 1em 1em 1em;
+    max-width: 30em;
   }
 
   @media screen and (max-width: 768px) {

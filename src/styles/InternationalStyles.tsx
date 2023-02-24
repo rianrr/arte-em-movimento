@@ -82,6 +82,7 @@ export const Box = styled.div`
     border-radius: 1em;
     margin: 1em 2em 1em 2em;
     padding: 2em;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         margin: 1em 0 1em 0;
@@ -90,9 +91,9 @@ export const Box = styled.div`
 
 export const MidBox = styled(Box)`
     background-image: linear-gradient(70deg, rgba(218, 165, 238, .5), rgba(108, 70, 206, .5));
-    height: 40%;
+    height: auto;
     width: 100%;
-    margin: 0 2em 2em 0;
+    margin: 2em 2em 2em 0;
 
   @media screen and (max-width: 768px) {
       width: 100%;

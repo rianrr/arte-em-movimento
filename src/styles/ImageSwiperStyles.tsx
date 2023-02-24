@@ -12,7 +12,7 @@ export const SwiperElement = styled(Swiper)`
 
  @media screen and (max-width: 1600px) {
     width: 100%;
-    border-radius: 0;
+    border-radius: 0 0em 1em 1em;
   }
 
   @media screen and (max-width: 500px) {

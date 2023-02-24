@@ -58,6 +58,10 @@ export const Image = styled.img`
   border-radius: 1em;
   margin: 2em 0 1em 0;
 
+  @media screen and (max-width: 1600px) {
+    width: 100%;
+  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
   }
@@ -82,5 +86,5 @@ export const Award = styled.p`
     color: #f8f8f8;
     text-align: center;
     font-size: 1.3em;
-    margin: 0 0 2em 0;
+    margin: 0 0 1.5em 0;
 `

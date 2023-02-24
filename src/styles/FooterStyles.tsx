@@ -7,7 +7,7 @@ export const Box = styled.div`
   bottom: 0;
   width: 100%;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     padding: 70px 30px;
     justify-content: center;
@@ -68,7 +68,10 @@ export const Logo = styled.img`
   width: 12%;
   margin-left: 10%;
 
-  
+  @media screen and (max-width: 1600px) {
+    margin: 0 1em 0 1em;
+    width: 18%;
+  }
 
   @media screen and (max-width: 768px) {
     margin: 2em 0 2em 0;
