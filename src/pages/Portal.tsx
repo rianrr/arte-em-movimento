@@ -10,7 +10,7 @@ export function Portal() {
       <Heading>Portal da Transparência</Heading>
 
       <Section>
-        <File href="/docs/Ara_Assembleia_Geral_Ordinaria_2023" target="_blank">
+        <File href="/docs/Ata_Assembleia_Geral_Ordinaria_2023" target="_blank">
           Ata de Assembleia Geral Ordinária - 2023
         </File>
         <File href="/docs/Balanco_Patrimonial_2022.pdf" target="_blank">
@@ -31,7 +31,7 @@ export function Portal() {
         >
           Ata de Asembleia Geral Ordinária - 2022
         </File>
-        <File href="/docs/Ata_Reeleicao_Diretoria.pdf" target="_blank">
+        <File href="/docs/Ata_Reeleicao_Diretoria_2021.pdf" target="_blank">
           Ata de Assembleia Geral Ordinária Reeleição da Diretoria - 2021
         </File>
         <File href="/docs/Ata_Constituicao_Eleicao.pdf" target="_blank">
