@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { FiHeart, FiThumbsUp, FiBookOpen } from "react-icons/fi";
+import styled from 'styled-components'
+import { FiHeart, FiThumbsUp, FiBookOpen } from 'react-icons/fi'
 
 export const Section = styled.section`
   display: flex;
@@ -50,7 +50,7 @@ export const Image = styled.img`
 export const Heading = styled.h1`
   color: #f8f8f8;
   font-size: 3em;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
   text-align: center;
 `
 
@@ -84,7 +84,11 @@ export const GridItem = styled.div`
   align-items: center;
   text-align: center;
   /* background-color: #daa5ee; */
-  background-image: linear-gradient(70deg, rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
+  background-image: linear-gradient(
+    70deg,
+    rgba(108, 70, 206, 0.5),
+    rgba(218, 165, 238, 0.5)
+  );
 
   @media screen and (max-width: 1600px) {
     padding: 2.5em;

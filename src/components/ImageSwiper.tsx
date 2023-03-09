@@ -1,5 +1,10 @@
 import { Navigation } from 'swiper'
-import { SwiperElement, SwiperSlider, NavLink, Image } from '../styles/ImageSwiperStyles'
+import {
+  SwiperElement,
+  SwiperSlider,
+  NavLink,
+  Image,
+} from '../styles/ImageSwiperStyles'
 
 import 'swiper/css/bundle'
 import 'swiper/css/autoplay'

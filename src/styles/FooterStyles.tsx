@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Box = styled.div`
   display: flex;
@@ -16,11 +16,11 @@ export const Box = styled.div`
 `
 
 export const Container = styled.div`
-	display: flex;
-	justify-content: flex-end;
-	max-width: 1300px;
-	margin: 0 auto;
-	// background: red;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1300px;
+  margin: 0 auto;
+  // background: red;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -33,7 +33,6 @@ export const Column = styled.div`
   text-align: left;
   margin-left: 3em;
 
-
   @media screen and (max-width: 768px) {
     margin-top: 2em;
   }
@@ -45,7 +44,7 @@ export const Social = styled.div`
 
 export const FooterLink = styled.a`
   color: #f8f8f8;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
   font-size: 1.1em;
   text-decoration: none;
   align-items: center;
@@ -58,10 +57,10 @@ export const FooterLink = styled.a`
 `
 
 export const Heading = styled.p`
-font-size: 1.5em;
-color: #f8f8f8;
-margin-bottom: 1em;
-font-weight: bold;
+  font-size: 1.5em;
+  color: #f8f8f8;
+  margin-bottom: 1em;
+  font-weight: bold;
 `
 
 export const Logo = styled.img`

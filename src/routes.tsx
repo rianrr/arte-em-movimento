@@ -1,19 +1,15 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes
-} from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import { Home } from "./pages/Home"
-import { About } from "./pages/About"
-import { Partners } from "./pages/Partners"
-import { Contact } from "./pages/Contact"
-import { Support } from "./pages/Support"
-import { Mission } from "./pages/Mission"
-import { Portal } from "./pages/Portal"
-import { Projects } from "./pages/Projects"
-import { International } from "./pages/International"
-import { Awards } from "./pages/Awards"
+import { Home } from './pages/Home'
+import { About } from './pages/About'
+import { Partners } from './pages/Partners'
+import { Contact } from './pages/Contact'
+import { Support } from './pages/Support'
+import { Mission } from './pages/Mission'
+import { Portal } from './pages/Portal'
+import { Projects } from './pages/Projects'
+import { International } from './pages/International'
+import { Awards } from './pages/Awards'
 
 export function AppRoutes() {
   return (

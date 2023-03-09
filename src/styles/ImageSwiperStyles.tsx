@@ -10,7 +10,7 @@ export const SwiperElement = styled(Swiper)`
   justify-content: center;
   border-radius: 1em;
 
- @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1600px) {
     width: 100%;
     border-radius: 0 0em 1em 1em;
   }
@@ -48,7 +48,7 @@ export const NavLink = styled(Link)`
 
   &:hover {
     background-color: #6c46ce;
-    transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
   }
 
   @media screen and (max-width: 500px) {

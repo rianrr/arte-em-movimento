@@ -1,7 +1,7 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
-import { Heading, Section, Image } from "../styles/PartnersStyles";
+import { Heading, Section, Image } from '../styles/PartnersStyles'
 
 export function Partners() {
   return (

@@ -1,6 +1,6 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { FaBars } from 'react-icons/fa'
+import { NavLink as Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 export const Nav = styled.nav`
   background: #6c46ce;
@@ -27,7 +27,7 @@ export const NavLink = styled(Link)`
 
   &:hover {
     color: #ceabfc;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 `
 

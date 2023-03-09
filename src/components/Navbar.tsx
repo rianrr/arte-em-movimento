@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import {
   Nav,
   NavLink,
@@ -6,8 +6,8 @@ import {
   Bars,
   LogoText,
   ExtendendContainer,
-  ExtendedNavLink
-} from '../styles/NavbarStyles';
+  ExtendedNavLink,
+} from '../styles/NavbarStyles'
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false)
@@ -18,31 +18,20 @@ const Navbar = () => {
         <NavLink to="/">
           <LogoText>Instituto Arte em Movimento Ana Zucchi</LogoText>
         </NavLink>
-
-        <Bars onClick={() => { setExtendNavbar((curr) => !curr) }} /> {/* todo: close icon */}
-
+        <Bars
+          onClick={() => {
+            setExtendNavbar((curr) => !curr)
+          }}
+        />{' '}
+        {/* todo: close icon */}
         <NavMenu>
-          <NavLink to='/quem-somos' >
-            Quem Somos
-          </NavLink>
-          <NavLink to='/projetos'>
-            Projetos
-          </NavLink>
-          <NavLink to='/premiacoes'>
-            Premiações
-          </NavLink>
-          <NavLink to='/internacionalmente'>
-            Internacionalmente
-          </NavLink>
-          <NavLink to='/parceiros' >
-            Parceiros
-          </NavLink>
-          <NavLink to='/portal-da-transparencia'>
-            Transparência
-          </NavLink>
-          <NavLink to="/contato">
-            Contato
-          </NavLink>
+          <NavLink to="/quem-somos">Quem Somos</NavLink>
+          <NavLink to="/projetos">Projetos</NavLink>
+          <NavLink to="/premiacoes">Premiações</NavLink>
+          <NavLink to="/internacionalmente">Internacionalmente</NavLink>
+          <NavLink to="/parceiros">Parceiros</NavLink>
+          <NavLink to="/portal-da-transparencia">Transparência</NavLink>
+          <NavLink to="/contato">Contato</NavLink>
           {/* <NavLink to="/apoie">
             Nos Apoie!
           </NavLink> */}
@@ -51,34 +40,24 @@ const Navbar = () => {
 
       {extendNavbar && (
         <ExtendendContainer>
-          <ExtendedNavLink to='/quem-somos'>
-            Quem Somos
-          </ExtendedNavLink>
-          <ExtendedNavLink to='/projetos'>
-            Projetos
-          </ExtendedNavLink>
-          <ExtendedNavLink to='/premiacoes'>
-            Premiações
-          </ExtendedNavLink>
-          <ExtendedNavLink to='/internacionalmente'>
+          <ExtendedNavLink to="/quem-somos">Quem Somos</ExtendedNavLink>
+          <ExtendedNavLink to="/projetos">Projetos</ExtendedNavLink>
+          <ExtendedNavLink to="/premiacoes">Premiações</ExtendedNavLink>
+          <ExtendedNavLink to="/internacionalmente">
             Internacionalmente
           </ExtendedNavLink>
-          <ExtendedNavLink to='/parceiros' >
-            Parceiros
-          </ExtendedNavLink>
-          <ExtendedNavLink to='/portal-da-transparencia'>
+          <ExtendedNavLink to="/parceiros">Parceiros</ExtendedNavLink>
+          <ExtendedNavLink to="/portal-da-transparencia">
             Transparência
           </ExtendedNavLink>
-          <ExtendedNavLink to="/contato">
-            Contato
-          </ExtendedNavLink>
+          <ExtendedNavLink to="/contato">Contato</ExtendedNavLink>
           {/* <ExtendedNavLink to="/apoie">
             Nos Apoie!
           </ExtendedNavLink> */}
         </ExtendendContainer>
       )}
     </>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

@@ -1,4 +1,11 @@
-import { Container, Card, HeadingSection, MessageSection, Heading, Message } from '../styles/DonationCardStyles'
+import {
+  Container,
+  Card,
+  HeadingSection,
+  MessageSection,
+  Heading,
+  Message,
+} from '../styles/DonationCardStyles'
 
 type CardProps = {
   heading: string

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Heading = styled.h1`
   color: #f8f8f8;
@@ -17,7 +17,7 @@ export const Section = styled.section`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-      flex-direction: column;
+    flex-direction: column;
   }
 `
 
@@ -39,14 +39,21 @@ export const Image = styled.img`
 export const BigCard = styled.div`
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(70deg, rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
+  background-image: linear-gradient(
+    70deg,
+    rgba(108, 70, 206, 0.5),
+    rgba(218, 165, 238, 0.5)
+  );
   width: 100%;
   border-radius: 1em;
   justify-content: center;
   padding: 2em;
 
   @media screen and (max-width: 768px) {
-    background-image: linear-gradient(rgba(108, 70, 206, .5), rgba(218, 165, 238, .5));
+    background-image: linear-gradient(
+      rgba(108, 70, 206, 0.5),
+      rgba(218, 165, 238, 0.5)
+    );
     padding: 2em;
     width: 100%;
   }
@@ -66,7 +73,7 @@ export const ContentHeading = styled.h2`
 `
 
 export const ContentSubHeading = styled.h3`
-  color: rgba(248, 248, 248, .7);
+  color: rgba(248, 248, 248, 0.7);
   text-align: center;
   font-size: 1.3em;
 `
@@ -78,6 +85,6 @@ export const ContentText = styled.p`
   margin: 1em 2em 0 2em;
 
   @media screen and (max-width: 768px) {
-      margin: 1em 0 0 0;
+    margin: 1em 0 0 0;
   }
 `

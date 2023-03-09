@@ -7,10 +7,15 @@ import {
   Heading,
   Logo,
   QRCode,
-  Wrapper
-} from "../styles/FooterStyles";
+  Wrapper,
+} from '../styles/FooterStyles'
 
-import { FiFacebook, FiInstagram, FiMessageCircle, FiMail } from 'react-icons/fi'
+import {
+  FiFacebook,
+  FiInstagram,
+  FiMessageCircle,
+  FiMail,
+} from 'react-icons/fi'
 
 import QrCode from '/images/qrcode.png'
 
@@ -31,8 +36,14 @@ const Footer = () => {
         <Column>
           <Heading>Contato</Heading>
 
-          <FooterLink><FiMessageCircle /><span style={{ marginLeft: 7 }}>+55 (13) 99788-3366</span></FooterLink>
-          <FooterLink><FiMail /><span style={{ marginLeft: 7 }}>anarosazz@hotmail.com</span></FooterLink>
+          <FooterLink>
+            <FiMessageCircle />
+            <span style={{ marginLeft: 7 }}>+55 (13) 99788-3366</span>
+          </FooterLink>
+          <FooterLink>
+            <FiMail />
+            <span style={{ marginLeft: 7 }}>anarosazz@hotmail.com</span>
+          </FooterLink>
         </Column>
         <Column>
           <Heading>Redes Sociais</Heading>
@@ -59,4 +70,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Footer

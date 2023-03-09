@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Heading = styled.h2`
   text-align: center;
@@ -30,7 +30,7 @@ export const File = styled.a`
 
   &:hover {
     color: rgba(248, 248, 248, 0.5);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   @media screen and (max-width: 768px) {

@@ -24,7 +24,7 @@ export const Image = styled.img`
 export const Heading = styled.h1`
   color: #f8f8f8;
   font-size: 3em;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -88,7 +88,7 @@ export const NavLink = styled(Link)`
 
   &:hover {
     border-color: #f8f8f8;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   @media screen and (max-width: 768px) {

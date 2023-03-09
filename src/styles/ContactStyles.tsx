@@ -6,7 +6,6 @@ export const Container = styled.section`
   margin: 2em 2em 2em 2em;
   align-items: center;
   justify-content: center;
-
 `
 
 export const Wrapper = styled.div``
@@ -57,7 +56,7 @@ export const InputButton = styled.input`
   /* letter-spacing: .1em; */
 
   &:hover {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     background-color: #ceabfc;
   }
 
@@ -74,5 +73,5 @@ export const TextArea = styled.textarea`
   border-radius: 1em;
   margin-bottom: 2.5em;
   height: 20em;
-  font-size: .9em;
+  font-size: 0.9em;
 `
